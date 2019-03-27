@@ -14,3 +14,10 @@
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](0027-remove-element/) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](0035-search-insert-position/) |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](0053-maximum-subarray/) |
+| 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](0058-length-of-last-word/) |
+| 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](0066-plus-one/) |
+| 0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](0067-add-binary/) |
+| 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](0083-remove-duplicates-from-sorted-list/) |
+| 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](0088-merge-sorted-array/) |
+| 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](0125-valid-palindrome/) |
+| 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](0136-single-number/) |
