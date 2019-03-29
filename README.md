@@ -4,6 +4,7 @@
 | ID | Problem | Java Solution |
 | --- | --- | :---: |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](0001-two-sum/) |
+| 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](0002-add-two-numbers/) |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](0007-reverse-integer/) |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](0009-palindrome-number/) |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Java](0013-roman-to-integer/) |
