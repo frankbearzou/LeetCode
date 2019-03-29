@@ -28,3 +28,15 @@
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](0203-remove-linked-list-elements/) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](0206-reverse-linked-list/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](0234-palindrome-linked-list/) |
+| 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](0328-odd-even-linked-list/) |
+| 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](0461-hamming-distance/) |
+| 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](0595-big-countries/) |
+| 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](0657-robot-return-to-origin/) |
+| 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Java](0709-to-lower-case/) |
+| 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](0771-jewels-and-stones/) |
+| 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](0804-unique-morse-code-words/) |
+| 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](0905-sort-array-by-parity/) |
+| 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](0929-unique-email-addresses/) |
+| 0961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Java](0961-n-repeated-element-in-size-2n-array/) |
+| 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](0977-squares-of-a-sorted-array/) |
+| 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](1003-check-if-word-is-valid-after-substitutions/) |
