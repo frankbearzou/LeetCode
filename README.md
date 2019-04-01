@@ -18,6 +18,7 @@
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](0058-length-of-last-word/) |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](0066-plus-one/) |
 | 0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](0067-add-binary/) |
+| 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](0069-sqrtx/) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](0083-remove-duplicates-from-sorted-list/) |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](0088-merge-sorted-array/) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](0125-valid-palindrome/) |
