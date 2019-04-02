@@ -30,6 +30,7 @@
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](0206-reverse-linked-list/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](0234-palindrome-linked-list/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](0328-odd-even-linked-list/) |
+| 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](0374-guess-number-higher-or-lower/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](0461-hamming-distance/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](0595-big-countries/) |
 | 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](0657-robot-return-to-origin/) |
