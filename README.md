@@ -22,6 +22,7 @@
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](0083-remove-duplicates-from-sorted-list/) |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](0088-merge-sorted-array/) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](0094-binary-tree-inorder-traversal/) |
+| 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](0101-symmetric-tree/) |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](0102-binary-tree-level-order-traversal/) |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](0104-maximum-depth-of-binary-tree/) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](0125-valid-palindrome/) |
