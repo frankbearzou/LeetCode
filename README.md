@@ -23,6 +23,7 @@
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](0088-merge-sorted-array/) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](0094-binary-tree-inorder-traversal/) |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](0102-binary-tree-level-order-traversal/) |
+| 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](0104-maximum-depth-of-binary-tree/) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](0125-valid-palindrome/) |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](0136-single-number/) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](0141-linked-list-cycle/) |
