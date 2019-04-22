@@ -42,6 +42,7 @@
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](0344-reverse-string/) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](0374-guess-number-higher-or-lower/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](0461-hamming-distance/) |
+| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](0485-max-consecutive-ones/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](0561-array-partition-i/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](0595-big-countries/) |
 | 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](0657-robot-return-to-origin/) |
