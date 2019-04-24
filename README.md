@@ -42,6 +42,7 @@
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](0203-remove-linked-list-elements/) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](0206-reverse-linked-list/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](0234-palindrome-linked-list/) |
+| 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](0283-move-zeroes/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](0328-odd-even-linked-list/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](0344-reverse-string/) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](0374-guess-number-higher-or-lower/) |
