@@ -38,6 +38,7 @@
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](0151-reverse-words-in-a-string/) |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](0160-intersection-of-two-linked-lists/) |
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](0167-two-sum-ii-input-array-is-sorted/) |
+| 0175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [MySQL](0175-combine-two-tables/) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](0189-rotate-array/) |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](0203-remove-linked-list-elements/) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](0206-reverse-linked-list/) |
