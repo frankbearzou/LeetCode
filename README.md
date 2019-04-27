@@ -66,6 +66,7 @@
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](0905-sort-array-by-parity/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](0929-unique-email-addresses/) |
 | 0942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | [Java](0942-di-string-match/) |
+| 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Java](0944-delete-columns-to-make-sorted/) |
 | 0961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Java](0961-n-repeated-element-in-size-2n-array/) |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](0977-squares-of-a-sorted-array/) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](1003-check-if-word-is-valid-after-substitutions/) |
