@@ -59,6 +59,7 @@
 | 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Java](0747-largest-number-at-least-twice-of-others/) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](0771-jewels-and-stones/) |
 | 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](0804-unique-morse-code-words/) |
+| 0807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Java](0807-max-increase-to-keep-city-skyline/) |
 | 0832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](0832-flipping-an-image/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](0905-sort-array-by-parity/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](0929-unique-email-addresses/) |
