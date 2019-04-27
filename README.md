@@ -62,6 +62,7 @@
 | 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](0804-unique-morse-code-words/) |
 | 0807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Java](0807-max-increase-to-keep-city-skyline/) |
 | 0832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](0832-flipping-an-image/) |
+| 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Java](0852-peak-index-in-a-mountain-array/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](0905-sort-array-by-parity/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](0929-unique-email-addresses/) |
 | 0942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | [Java](0942-di-string-match/) |
