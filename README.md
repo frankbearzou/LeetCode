@@ -14,6 +14,7 @@
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](0026-remove-duplicates-from-sorted-array/) |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](0027-remove-element/) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](0035-search-insert-position/) |
+| 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](0038-count-and-say/) |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](0053-maximum-subarray/) |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](0058-length-of-last-word/) |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](0066-plus-one/) |
