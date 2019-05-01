@@ -65,6 +65,7 @@
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Java](0724-find-pivot-index/) |
 | 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [Java](0728-self-dividing-numbers/) |
 | 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Java](0747-largest-number-at-least-twice-of-others/) |
+| 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Java](0752-open-the-lock/) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](0771-jewels-and-stones/) |
 | 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](0804-unique-morse-code-words/) |
 | 0807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Java](0807-max-increase-to-keep-city-skyline/) |
