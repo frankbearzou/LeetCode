@@ -42,6 +42,7 @@
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](0167-two-sum-ii-input-array-is-sorted/) |
 | 0175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [MySQL](0175-combine-two-tables/) |
 | 0176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [MySQL](0176-second-highest-salary/) |
+| 0182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [MySQL](0182-duplicate-emails/) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](0189-rotate-array/) |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Java](0200-number-of-islands/) |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](0203-remove-linked-list-elements/) |
