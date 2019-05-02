@@ -36,6 +36,7 @@
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](0142-linked-list-cycle-ii/) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](0144-binary-tree-preorder-traversal/) |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](0145-binary-tree-postorder-traversal/) |
+| 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](0150-evaluate-reverse-polish-notation/) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](0151-reverse-words-in-a-string/) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](0155-min-stack/) |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](0160-intersection-of-two-linked-lists/) |
