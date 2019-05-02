@@ -57,6 +57,7 @@
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Java](0557-reverse-words-in-a-string-iii/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](0561-array-partition-i/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](0595-big-countries/) |
+| 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](0620-not-boring-movies/) |
 | 0622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](0622-design-circular-queue/) |
 | 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](0657-robot-return-to-origin/) |
 | 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](0627-swap-salary/) |
