@@ -48,6 +48,7 @@
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Java](0200-number-of-islands/) |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](0203-remove-linked-list-elements/) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](0206-reverse-linked-list/) |
+| 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Java](0225-implement-stack-using-queues/) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](0232-implement-queue-using-stacks/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](0234-palindrome-linked-list/) |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](0283-move-zeroes/) |
