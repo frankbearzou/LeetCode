@@ -89,3 +89,4 @@
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](0977-squares-of-a-sorted-array/) |
 | 0985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Java](0985-sum-of-even-numbers-after-queries/) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](1003-check-if-word-is-valid-after-substitutions/) |
+| 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Java](1021-remove-outermost-parentheses/) |
