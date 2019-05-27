@@ -82,6 +82,7 @@
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Java](0852-peak-index-in-a-mountain-array/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](0905-sort-array-by-parity/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](0929-unique-email-addresses/) |
+| 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Java](0938-range-sum-of-bst/) |
 | 0942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | [Java](0942-di-string-match/) |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Java](0944-delete-columns-to-make-sorted/) |
 | 0961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Java](0961-n-repeated-element-in-size-2n-array/) |
