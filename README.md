@@ -60,6 +60,7 @@
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Java](0494-target-sum/) |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Java](0509-fibonacci-number/) |
 | 0515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](0515-find-largest-value-in-each-tree-row/) |
+| 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [Java](0520-detect-capital/) |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Java](0557-reverse-words-in-a-string-iii/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](0561-array-partition-i/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](0595-big-countries/) |
