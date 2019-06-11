@@ -93,5 +93,6 @@
 | 0985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Java](0985-sum-of-even-numbers-after-queries/) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](1003-check-if-word-is-valid-after-substitutions/) |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Java](1021-remove-outermost-parentheses/) |
+| 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Java](1047-remove-all-adjacent-duplicates-in-string/) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | [Java](1051-height-checker/) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Java](1078-occurrences-after-bigram/) |
