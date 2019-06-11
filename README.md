@@ -55,6 +55,7 @@
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](0328-odd-even-linked-list/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](0344-reverse-string/) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](0374-guess-number-higher-or-lower/) |
+| 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](0412-fizz-buzz/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](0461-hamming-distance/) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](0485-max-consecutive-ones/) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Java](0494-target-sum/) |
