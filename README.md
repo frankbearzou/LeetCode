@@ -81,6 +81,7 @@
 | 0807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Java](0807-max-increase-to-keep-city-skyline/) |
 | 0832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](0832-flipping-an-image/) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Java](0852-peak-index-in-a-mountain-array/) |
+| 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Java](0872-leaf-similar-trees/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](0905-sort-array-by-parity/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](0929-unique-email-addresses/) |
 | 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Java](0938-range-sum-of-bst/) |
