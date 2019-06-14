@@ -41,6 +41,7 @@
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](0155-min-stack/) |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](0160-intersection-of-two-linked-lists/) |
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](0167-two-sum-ii-input-array-is-sorted/) |
+| 0169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [Java](0169-majority-element/) |
 | 0175 | [Combine Two Tables](https://leetcode.com/problems/combine-two-tables/) | [MySQL](0175-combine-two-tables/) |
 | 0176 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | [MySQL](0176-second-highest-salary/) |
 | 0182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [MySQL](0182-duplicate-emails/) |
