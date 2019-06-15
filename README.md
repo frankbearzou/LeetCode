@@ -72,6 +72,7 @@
 | 0622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](0622-design-circular-queue/) |
 | 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](0657-robot-return-to-origin/) |
 | 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](0627-swap-salary/) |
+| 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Java](0682-baseball-game/) |
 | 0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Java](0700-search-in-a-binary-search-tree/) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Java](0704-binary-search/) |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Java](0709-to-lower-case/) |
