@@ -58,6 +58,7 @@
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](0374-guess-number-higher-or-lower/) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](0412-fizz-buzz/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](0461-hamming-distance/) |
+| 0476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [Java](0476-number-complement/) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](0485-max-consecutive-ones/) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Java](0494-target-sum/) |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Java](0509-fibonacci-number/) |
