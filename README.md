@@ -102,3 +102,4 @@
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | [Java](1051-height-checker/) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Java](1078-occurrences-after-bigram/) |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Java](1108-defanging-an-ip-address/) |
+| 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Java](1200-minimum-absolute-difference/) |
