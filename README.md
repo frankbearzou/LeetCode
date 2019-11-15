@@ -101,3 +101,4 @@
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Java](1047-remove-all-adjacent-duplicates-in-string/) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | [Java](1051-height-checker/) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Java](1078-occurrences-after-bigram/) |
+| 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Java](1108-defanging-an-ip-address/) |
