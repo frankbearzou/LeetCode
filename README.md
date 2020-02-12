@@ -66,6 +66,7 @@
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [Java](0520-detect-capital/) |
 | 0537 | [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) | [Java](0537-complex-number-multiplication/) |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Java](0557-reverse-words-in-a-string-iii/) |
+| 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](0560-subarray-sum-equals-k/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](0561-array-partition-i/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](0595-big-countries/) |
 | 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](0620-not-boring-movies/) |
