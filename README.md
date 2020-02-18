@@ -27,6 +27,7 @@
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](0101-symmetric-tree/) |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](0102-binary-tree-level-order-traversal/) |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](0104-maximum-depth-of-binary-tree/) |
+| 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](0110-balanced-binary-tree/) |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Java](0112-path-sum/) |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Java](0118-pascals-triangle/) |
 | 0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Java](0119-pascals-triangle-ii/) |
