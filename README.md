@@ -27,6 +27,7 @@
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](0088-merge-sorted-array/) |
 | 0094 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Java](0094-binary-tree-inorder-traversal/) |
 | 0098 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Java](0098-validate-binary-search-tree/) |
+| 0100 | [Same Tree](https://leetcode.com/problems/same-tree/) | [Java](0100-same-tree/) |
 | 0101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [Java](0101-symmetric-tree/) |
 | 0102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Java](0102-binary-tree-level-order-traversal/) |
 | 0104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Java](0104-maximum-depth-of-binary-tree/) |
