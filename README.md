@@ -73,6 +73,7 @@
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [Java](0476-number-complement/) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](0485-max-consecutive-ones/) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Java](0494-target-sum/) |
+| 0498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [Java](0498-diagonal-traverse/) |
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Java](0509-fibonacci-number/) |
 | 0515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](0515-find-largest-value-in-each-tree-row/) |
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [Java](0520-detect-capital/) |
