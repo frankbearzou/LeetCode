@@ -16,6 +16,7 @@
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](0023-merge-k-sorted-lists/) |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](0026-remove-duplicates-from-sorted-array/) |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](0027-remove-element/) |
+| 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Java](0028-implement-strstr/) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](0035-search-insert-position/) |
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](0038-count-and-say/) |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Java](0048-rotate-image/) |
