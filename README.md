@@ -59,6 +59,7 @@
 | 0182 | [Duplicate Emails](https://leetcode.com/problems/duplicate-emails/) | [MySQL](0182-duplicate-emails/) |
 | 0189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [Java](0189-rotate-array/) |
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Java](0200-number-of-islands/) |
+| 0202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Java](0202-happy-number/) |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](0203-remove-linked-list-elements/) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](0206-reverse-linked-list/) |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Java](0209-minimum-size-subarray-sum/) |
