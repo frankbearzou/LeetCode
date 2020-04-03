@@ -70,6 +70,7 @@
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Java](0225-implement-stack-using-queues/) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](0232-implement-queue-using-stacks/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](0234-palindrome-linked-list/) |
+| 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](0236-lowest-common-ancestor-of-a-binary-tree/) |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](0283-move-zeroes/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](0328-odd-even-linked-list/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](0344-reverse-string/) |
