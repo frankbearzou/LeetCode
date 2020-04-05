@@ -75,6 +75,7 @@
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](0283-move-zeroes/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](0328-odd-even-linked-list/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](0344-reverse-string/) |
+| 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](0349-intersection-of-two-arrays/) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](0374-guess-number-higher-or-lower/) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](0412-fizz-buzz/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](0461-hamming-distance/) |
