@@ -97,6 +97,7 @@
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Java](0682-baseball-game/) |
 | 0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Java](0700-search-in-a-binary-search-tree/) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Java](0704-binary-search/) |
+| 0705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [Java](0705-design-hashset/) |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Java](0709-to-lower-case/) |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Java](0724-find-pivot-index/) |
 | 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [Java](0728-self-dividing-numbers/) |
