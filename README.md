@@ -64,6 +64,7 @@
 | 0200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Java](solution/0200-number-of-islands/) |
 | 0202 | [Happy Number](https://leetcode.com/problems/happy-number/) | [Java](solution/0202-happy-number/) |
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](solution/0203-remove-linked-list-elements/) |
+| 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Java](solution/0205-isomorphic-strings/) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](solution/0206-reverse-linked-list/) |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Java](solution/0209-minimum-size-subarray-sum/) |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](solution/0217-contains-duplicate/) |
