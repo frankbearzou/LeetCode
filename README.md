@@ -18,6 +18,7 @@
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](solution/0027-remove-element/) |
 | 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Java](solution/0028-implement-strstr/) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](solution/0035-search-insert-position/) |
+| 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](solution/0036-valid-sudoku/) |
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](solution/0038-count-and-say/) |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Java](solution/0048-rotate-image/) |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](solution/0049-group-anagrams/) |
