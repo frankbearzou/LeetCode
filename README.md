@@ -20,6 +20,7 @@
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](solution/0035-search-insert-position/) |
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](solution/0038-count-and-say/) |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Java](solution/0048-rotate-image/) |
+| 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](solution/0049-group-anagrams/) |
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](solution/0053-maximum-subarray/) |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Java](solution/0054-spiral-matrix/) |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](solution/0058-length-of-last-word/) |
