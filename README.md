@@ -79,6 +79,7 @@
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](solution/0344-reverse-string/) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](solution/0349-intersection-of-two-arrays/) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](solution/0374-guess-number-higher-or-lower/) |
+| 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Java](solution/0387-first-unique-character-in-a-string/) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](solution/0412-fizz-buzz/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](solution/0461-hamming-distance/) |
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [Java](solution/0476-number-complement/) |
