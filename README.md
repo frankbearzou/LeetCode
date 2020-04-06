@@ -93,6 +93,7 @@
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](solution/0560-subarray-sum-equals-k/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](solution/0561-array-partition-i/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](solution/0595-big-countries/) |
+| 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Java](solution/0599-minimum-index-sum-of-two-lists/) |
 | 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](solution/0620-not-boring-movies/) |
 | 0622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](solution/0622-design-circular-queue/) |
 | 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](solution/0657-robot-return-to-origin/) |
