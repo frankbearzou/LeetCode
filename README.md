@@ -82,6 +82,7 @@
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](solution/0349-intersection-of-two-arrays/) |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Java](solution/0350-intersection-of-two-arrays-ii/) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](solution/0374-guess-number-higher-or-lower/) |
+| 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](solution/0380-insert-delete-getrandom-o1/) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Java](solution/0387-first-unique-character-in-a-string/) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](solution/0412-fizz-buzz/) |
 | 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [Java](solution/0454-4sum-ii/) |
