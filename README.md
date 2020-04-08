@@ -120,6 +120,7 @@
 | 0832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](solution/0832-flipping-an-image/) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Java](solution/0852-peak-index-in-a-mountain-array/) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Java](solution/0872-leaf-similar-trees/) |
+| 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](solution/0876-middle-of-the-linked-list/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](solution/0905-sort-array-by-parity/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](solution/0929-unique-email-addresses/) |
 | 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Java](solution/0938-range-sum-of-bst/) |
