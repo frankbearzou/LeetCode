@@ -95,6 +95,7 @@
 | 0509 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Java](solution/0509-fibonacci-number/) |
 | 0515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](solution/0515-find-largest-value-in-each-tree-row/) |
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [Java](solution/0520-detect-capital/) |
+| 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](solution/0525-contiguous-array/) |
 | 0537 | [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) | [Java](solution/0537-complex-number-multiplication/) |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](solution/0543-diameter-of-binary-tree/) |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Java](solution/0557-reverse-words-in-a-string-iii/) |
