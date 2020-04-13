@@ -14,6 +14,7 @@
 | 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [Java](solution/0020-valid-parentheses/) |
 | 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [Java](solution/0021-merge-two-sorted-lists/) |
 | 0023 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [Java](solution/0023-merge-k-sorted-lists/) |
+| 0024 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [Java](solution/0024-swap-nodes-in-pairs/) |
 | 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Java](solution/0026-remove-duplicates-from-sorted-array/) |
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](solution/0027-remove-element/) |
 | 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Java](solution/0028-implement-strstr/) |
