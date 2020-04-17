@@ -109,8 +109,9 @@
 | 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Java](solution/0599-minimum-index-sum-of-two-lists/) |
 | 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](solution/0620-not-boring-movies/) |
 | 0622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](solution/0622-design-circular-queue/) |
-| 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](solution/0657-robot-return-to-origin/) |
 | 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](solution/0627-swap-salary/) |
+| 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](solution/0657-robot-return-to-origin/) |
+| 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](solution/0678-valid-parenthesis-string/) |
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Java](solution/0682-baseball-game/) |
 | 0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Java](solution/0700-search-in-a-binary-search-tree/) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Java](solution/0704-binary-search/) |
