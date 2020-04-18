@@ -27,6 +27,7 @@
 | 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Java](solution/0053-maximum-subarray/) |
 | 0054 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | [Java](solution/0054-spiral-matrix/) |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](solution/0058-length-of-last-word/) |
+| 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](solution/0064-minimum-path-sum/) |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](solution/0066-plus-one/) |
 | 0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](solution/0067-add-binary/) |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](solution/0069-sqrtx/) |
