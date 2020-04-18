@@ -101,6 +101,7 @@
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [Java](solution/0520-detect-capital/) |
 | 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](solution/0525-contiguous-array/) |
 | 0537 | [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) | [Java](solution/0537-complex-number-multiplication/) |
+| 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](solution/0542-01-matrix/) |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](solution/0543-diameter-of-binary-tree/) |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Java](solution/0557-reverse-words-in-a-string-iii/) |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](solution/0560-subarray-sum-equals-k/) |
