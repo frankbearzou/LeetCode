@@ -150,6 +150,7 @@
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Java](solution/1047-remove-all-adjacent-duplicates-in-string/) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | [Java](solution/1051-height-checker/) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Java](solution/1078-occurrences-after-bigram/) |
+| 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Java](solution/1089-duplicate-zeros/) |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Java](solution/1108-defanging-an-ip-address/) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Java](solution/1200-minimum-absolute-difference/) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](solution/1295-find-numbers-with-even-number-of-digits/) |
