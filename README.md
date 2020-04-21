@@ -155,4 +155,5 @@
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Java](solution/1108-defanging-an-ip-address/) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Java](solution/1200-minimum-absolute-difference/) |
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](solution/1295-find-numbers-with-even-number-of-digits/) |
+| 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Java](solution/1299-replace-elements-with-greatest-element-on-right-side/) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Java](solution/1346-check-if-n-and-its-double-exist/) |
