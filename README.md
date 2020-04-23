@@ -125,6 +125,7 @@
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Java](solution/0704-binary-search/) |
 | 0705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [Java](solution/0705-design-hashset/) |
 | 0706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Java](solution/0706-design-hashmap/) |
+| 0707 | [Design Linked List](https://leetcode.com/problems/design-linked-list/) | [Java](solution/0707-design-linked-list/) |
 | 0709 | [To Lower Case](https://leetcode.com/problems/to-lower-case/) | [Java](solution/0709-to-lower-case/) |
 | 0724 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | [Java](solution/0724-find-pivot-index/) |
 | 0728 | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/) | [Java](solution/0728-self-dividing-numbers/) |
