@@ -59,6 +59,7 @@
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](solution/0142-linked-list-cycle-ii/) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](solution/0144-binary-tree-preorder-traversal/) |
 | 0145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Java](solution/0145-binary-tree-postorder-traversal/) |
+| 0146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [Java](solution/0146-lru-cache/) |
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](solution/0150-evaluate-reverse-polish-notation/) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](solution/0151-reverse-words-in-a-string/) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](solution/0155-min-stack/) |
