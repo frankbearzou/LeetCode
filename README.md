@@ -119,6 +119,7 @@
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](solution/0561-array-partition-i/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](solution/0595-big-countries/) |
 | 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Java](solution/0599-minimum-index-sum-of-two-lists/) |
+| 0617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Java](solution/0617-merge-two-binary-trees/) |
 | 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](solution/0620-not-boring-movies/) |
 | 0622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](solution/0622-design-circular-queue/) |
 | 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](solution/0627-swap-salary/) |
