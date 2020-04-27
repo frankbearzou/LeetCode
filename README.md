@@ -20,6 +20,7 @@
 | 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [Java](solution/0027-remove-element/) |
 | 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [Java](solution/0028-implement-strstr/) |
 | 0033 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Java](solution/0033-search-in-rotated-sorted-array/) |
+| 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Java](solution/0034-find-first-and-last-position-of-element-in-sorted-array/) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](solution/0035-search-insert-position/) |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](solution/0036-valid-sudoku/) |
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](solution/0038-count-and-say/) |
