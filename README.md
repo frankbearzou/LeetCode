@@ -57,6 +57,7 @@
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Java](solution/0118-pascals-triangle/) |
 | 0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Java](solution/0119-pascals-triangle-ii/) |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](solution/0122-best-time-to-buy-and-sell-stock-ii/) |
+| 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Java](solution/0124-binary-tree-maximum-path-sum/) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](solution/0125-valid-palindrome/) |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](solution/0136-single-number/) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](solution/0141-linked-list-cycle/) |
