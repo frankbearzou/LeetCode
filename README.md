@@ -124,6 +124,7 @@
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](solution/0560-subarray-sum-equals-k/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](solution/0561-array-partition-i/) |
 | 0589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [Java](solution/0589-n-ary-tree-preorder-traversal/) |
+| 0590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [Java](solution/0590-n-ary-tree-postorder-traversal/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](solution/0595-big-countries/) |
 | 0599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Java](solution/0599-minimum-index-sum-of-two-lists/) |
 | 0617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [Java](solution/0617-merge-two-binary-trees/) |
