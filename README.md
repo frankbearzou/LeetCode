@@ -123,6 +123,7 @@
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](solution/0542-01-matrix/) |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](solution/0543-diameter-of-binary-tree/) |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Java](solution/0557-reverse-words-in-a-string-iii/) |
+| 0559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Java](solution/0559-maximum-depth-of-n-ary-tree/) |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](solution/0560-subarray-sum-equals-k/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](solution/0561-array-partition-i/) |
 | 0589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [Java](solution/0589-n-ary-tree-preorder-traversal/) |
