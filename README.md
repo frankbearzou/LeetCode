@@ -168,6 +168,7 @@
 | 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Java](solution/0965-univalued-binary-tree/) |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](solution/0977-squares-of-a-sorted-array/) |
 | 0985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Java](solution/0985-sum-of-even-numbers-after-queries/) |
+| 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Java](solution/0987-vertical-order-traversal-of-a-binary-tree/) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](solution/1003-check-if-word-is-valid-after-substitutions/) |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Java](solution/1008-construct-binary-search-tree-from-preorder-traversal/) |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Java](solution/1021-remove-outermost-parentheses/) |
