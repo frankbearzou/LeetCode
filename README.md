@@ -126,6 +126,7 @@
 | 0559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Java](solution/0559-maximum-depth-of-n-ary-tree/) |
 | 0560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Java](solution/0560-subarray-sum-equals-k/) |
 | 0561 | [Array Partition I](https://leetcode.com/problems/array-partition-i/) | [Java](solution/0561-array-partition-i/) |
+| 0572 | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) | [Java](solution/0572-subtree-of-another-tree/) |
 | 0589 | [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [Java](solution/0589-n-ary-tree-preorder-traversal/) |
 | 0590 | [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [Java](solution/0590-n-ary-tree-postorder-traversal/) |
 | 0595 | [Big Countries](https://leetcode.com/problems/big-countries/) | [MySQL](solution/0595-big-countries/) |
