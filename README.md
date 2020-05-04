@@ -137,6 +137,7 @@
 | 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](solution/0627-swap-salary/) |
 | 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](solution/0657-robot-return-to-origin/) |
 | 0661 | [Image Smoother](https://leetcode.com/problems/image-smoother/) | [Java](solution/0661-image-smoother/) |
+| 0669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [Java](solution/0669-trim-a-binary-search-tree/) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](solution/0678-valid-parenthesis-string/) |
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Java](solution/0682-baseball-game/) |
 | 0692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Java](solution/0692-top-k-frequent-words/) |
