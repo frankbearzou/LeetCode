@@ -93,6 +93,7 @@
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Java](solution/0225-implement-stack-using-queues/) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](solution/0232-implement-queue-using-stacks/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](solution/0234-palindrome-linked-list/) |
+| 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Java](solution/0235-lowest-common-ancestor-of-a-binary-search-tree/) |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](solution/0236-lowest-common-ancestor-of-a-binary-tree/) |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](solution/0238-product-of-array-except-self/) |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Java](solution/0257-binary-tree-paths/) |
