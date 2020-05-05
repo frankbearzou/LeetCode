@@ -100,6 +100,7 @@
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](solution/0278-first-bad-version/) |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](solution/0283-move-zeroes/) |
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Java](solution/0290-word-pattern/) |
+| 0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](solution/0297-serialize-and-deserialize-binary-tree/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](solution/0328-odd-even-linked-list/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](solution/0344-reverse-string/) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](solution/0347-top-k-frequent-elements/) |
