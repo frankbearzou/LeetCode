@@ -54,6 +54,7 @@
 | 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [Java](solution/0110-balanced-binary-tree/) |
 | 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Java](solution/0111-minimum-depth-of-binary-tree/) |
 | 0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [Java](solution/0112-path-sum/) |
+| 0113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Java](solution/0113-path-sum-ii/) |
 | 0116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [Java](solution/0116-populating-next-right-pointers-in-each-node/) |
 | 0117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Java](solution/0117-populating-next-right-pointers-in-each-node-ii/) |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Java](solution/0118-pascals-triangle/) |
