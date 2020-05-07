@@ -148,6 +148,7 @@
 | 0669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [Java](solution/0669-trim-a-binary-search-tree/) |
 | 0678 | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) | [Java](solution/0678-valid-parenthesis-string/) |
 | 0682 | [Baseball Game](https://leetcode.com/problems/baseball-game/) | [Java](solution/0682-baseball-game/) |
+| 0687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Java](solution/0687-longest-univalue-path/) |
 | 0692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Java](solution/0692-top-k-frequent-words/) |
 | 0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Java](solution/0700-search-in-a-binary-search-tree/) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Java](solution/0704-binary-search/) |
