@@ -72,6 +72,7 @@
 | 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Java](solution/0150-evaluate-reverse-polish-notation/) |
 | 0151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | [Java](solution/0151-reverse-words-in-a-string/) |
 | 0153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Java](solution/0153-find-minimum-in-rotated-sorted-array/) |
+| 0154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [Java](solution/0154-find-minimum-in-rotated-sorted-array-ii/) |
 | 0155 | [Min Stack](https://leetcode.com/problems/min-stack/) | [Java](solution/0155-min-stack/) |
 | 0160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Java](solution/0160-intersection-of-two-linked-lists/) |
 | 0167 | [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](solution/0167-two-sum-ii-input-array-is-sorted/) |
