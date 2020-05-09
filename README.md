@@ -108,6 +108,7 @@
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](solution/0347-top-k-frequent-elements/) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](solution/0349-intersection-of-two-arrays/) |
 | 0350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Java](solution/0350-intersection-of-two-arrays-ii/) |
+| 0367 | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | [Java](solution/0367-valid-perfect-square/) |
 | 0374 | [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Java](solution/0374-guess-number-higher-or-lower/) |
 | 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](solution/0380-insert-delete-getrandom-o1/) |
 | 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Java](solution/0383-ransom-note/) |
