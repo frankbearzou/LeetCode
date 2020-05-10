@@ -93,6 +93,7 @@
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Java](solution/0219-contains-duplicate-ii/) |
 | 0221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Java](solution/0221-maximal-square/) |
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Java](solution/0225-implement-stack-using-queues/) |
+| 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](solution/0230-kth-smallest-element-in-a-bst/) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](solution/0232-implement-queue-using-stacks/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](solution/0234-palindrome-linked-list/) |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Java](solution/0235-lowest-common-ancestor-of-a-binary-search-tree/) |
