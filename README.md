@@ -156,6 +156,7 @@
 | 0687 | [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) | [Java](solution/0687-longest-univalue-path/) |
 | 0692 | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Java](solution/0692-top-k-frequent-words/) |
 | 0700 | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Java](solution/0700-search-in-a-binary-search-tree/) |
+| 0701 | [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [Java](solution/0701-insert-into-a-binary-search-tree/) |
 | 0704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [Java](solution/0704-binary-search/) |
 | 0705 | [Design HashSet](https://leetcode.com/problems/design-hashset/) | [Java](solution/0705-design-hashset/) |
 | 0706 | [Design HashMap](https://leetcode.com/problems/design-hashmap/) | [Java](solution/0706-design-hashmap/) |
