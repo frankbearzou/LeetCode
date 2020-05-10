@@ -186,6 +186,7 @@
 | 0985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Java](solution/0985-sum-of-even-numbers-after-queries/) |
 | 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Java](solution/0987-vertical-order-traversal-of-a-binary-tree/) |
 | 0993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Java](solution/0993-cousins-in-binary-tree/) |
+| 0997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Java](solution/0997-find-the-town-judge/) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](solution/1003-check-if-word-is-valid-after-substitutions/) |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Java](solution/1008-construct-binary-search-tree-from-preorder-traversal/) |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Java](solution/1021-remove-outermost-parentheses/) |
