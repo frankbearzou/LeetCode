@@ -122,6 +122,7 @@
 | 0445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [Java](solution/0445-add-two-numbers-ii/) |
 | 0448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Java](solution/0448-find-all-numbers-disappeared-in-an-array/) |
 | 0449 | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [Java](solution/0449-serialize-and-deserialize-bst/) |
+| 0450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Java](solution/0450-delete-node-in-a-bst/) |
 | 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [Java](solution/0454-4sum-ii/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](solution/0461-hamming-distance/) |
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [Java](solution/0476-number-complement/) |
