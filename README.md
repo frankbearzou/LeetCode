@@ -137,6 +137,7 @@
 | 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](solution/0525-contiguous-array/) |
 | 0530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Java](solution/0530-minimum-absolute-difference-in-bst/) |
 | 0537 | [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) | [Java](solution/0537-complex-number-multiplication/) |
+| 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Java](solution/0540-single-element-in-a-sorted-array/) |
 | 0542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Java](solution/0542-01-matrix/) |
 | 0543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [Java](solution/0543-diameter-of-binary-tree/) |
 | 0557 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Java](solution/0557-reverse-words-in-a-string-iii/) |
