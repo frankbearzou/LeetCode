@@ -185,6 +185,7 @@
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Java](solution/0872-leaf-similar-trees/) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](solution/0876-middle-of-the-linked-list/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](solution/0905-sort-array-by-parity/) |
+| 0918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Java](solution/0918-maximum-sum-circular-subarray/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](solution/0929-unique-email-addresses/) |
 | 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Java](solution/0938-range-sum-of-bst/) |
 | 0941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Java](solution/0941-valid-mountain-array/) |
