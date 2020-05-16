@@ -106,6 +106,7 @@
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](solution/0283-move-zeroes/) |
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Java](solution/0290-word-pattern/) |
 | 0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](solution/0297-serialize-and-deserialize-binary-tree/) |
+| 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](solution/0300-longest-increasing-subsequence/) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [Java](solution/0322-coin-change/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](solution/0328-odd-even-linked-list/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](solution/0344-reverse-string/) |
