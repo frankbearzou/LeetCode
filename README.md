@@ -29,6 +29,7 @@
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](solution/0036-valid-sudoku/) |
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](solution/0038-count-and-say/) |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Java](solution/0039-combination-sum/) |
+| 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [Java](solution/0040-combination-sum-ii/) |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Java](solution/0048-rotate-image/) |
 | 0049 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Java](solution/0049-group-anagrams/) |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Java](solution/0050-powx-n/) |
