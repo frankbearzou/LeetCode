@@ -27,6 +27,7 @@
 | 0034 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Java](solution/0034-find-first-and-last-position-of-element-in-sorted-array/) |
 | 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](solution/0035-search-insert-position/) |
 | 0036 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | [Java](solution/0036-valid-sudoku/) |
+| 0037 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Java](solution/0037-sudoku-solver/) |
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](solution/0038-count-and-say/) |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Java](solution/0039-combination-sum/) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [Java](solution/0040-combination-sum-ii/) |
