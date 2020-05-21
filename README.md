@@ -187,6 +187,7 @@
 | 0747 | [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/) | [Java](solution/0747-largest-number-at-least-twice-of-others/) |
 | 0752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | [Java](solution/0752-open-the-lock/) |
 | 0771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [Java](solution/0771-jewels-and-stones/) |
+| 0784 | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/) | [Java](solution/0784-letter-case-permutation/) |
 | 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](solution/0804-unique-morse-code-words/) |
 | 0807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Java](solution/0807-max-increase-to-keep-city-skyline/) |
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [Java](solution/0814-binary-tree-pruning/) |
