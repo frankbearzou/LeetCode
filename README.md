@@ -48,6 +48,7 @@
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](solution/0070-climbing-stairs/) |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | [Java](solution/0077-combinations/) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets/) | [Java](solution/0078-subsets/) |
+| 0079 | [Word Search](https://leetcode.com/problems/word-search/) | [Java](solution/0079-word-search/) |
 | 0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Java](solution/0083-remove-duplicates-from-sorted-list/) |
 | 0088 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [Java](solution/0088-merge-sorted-array/) |
 | 0090 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | [Java](solution/0090-subsets-ii/) |
