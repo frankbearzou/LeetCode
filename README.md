@@ -211,6 +211,7 @@
 | 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Java](solution/0965-univalued-binary-tree/) |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](solution/0977-squares-of-a-sorted-array/) |
 | 0985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Java](solution/0985-sum-of-even-numbers-after-queries/) |
+| 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [Java](solution/0986-interval-list-intersections/) |
 | 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Java](solution/0987-vertical-order-traversal-of-a-binary-tree/) |
 | 0993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Java](solution/0993-cousins-in-binary-tree/) |
 | 0997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Java](solution/0997-find-the-town-judge/) |
