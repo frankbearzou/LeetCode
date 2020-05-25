@@ -226,6 +226,7 @@
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Java](solution/1078-occurrences-after-bigram/) |
 | 1089 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | [Java](solution/1089-duplicate-zeros/) |
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Java](solution/1108-defanging-an-ip-address/) |
+| 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Java](solution/1137-n-th-tribonacci-number/) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Java](solution/1143-longest-common-subsequence/) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Java](solution/1200-minimum-absolute-difference/) |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Java](solution/1232-check-if-it-is-a-straight-line/) |
