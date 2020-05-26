@@ -41,6 +41,7 @@
 | 0055 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Java](solution/0055-jump-game/) |
 | 0056 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [Java](solution/0056-merge-intervals/) |
 | 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [Java](solution/0058-length-of-last-word/) |
+| 0062 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Java](solution/0062-unique-paths/) |
 | 0064 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | [Java](solution/0064-minimum-path-sum/) |
 | 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [Java](solution/0066-plus-one/) |
 | 0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](solution/0067-add-binary/) |
