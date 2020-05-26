@@ -69,6 +69,7 @@
 | 0117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [Java](solution/0117-populating-next-right-pointers-in-each-node-ii/) |
 | 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Java](solution/0118-pascals-triangle/) |
 | 0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [Java](solution/0119-pascals-triangle-ii/) |
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Java](solution/0121-best-time-to-buy-and-sell-stock/) |
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](solution/0122-best-time-to-buy-and-sell-stock-ii/) |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Java](solution/0124-binary-tree-maximum-path-sum/) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](solution/0125-valid-palindrome/) |
