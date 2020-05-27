@@ -203,6 +203,7 @@
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Java](solution/0852-peak-index-in-a-mountain-array/) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Java](solution/0872-leaf-similar-trees/) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](solution/0876-middle-of-the-linked-list/) |
+| 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [Java](solution/0886-possible-bipartition/) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | [Java](solution/0901-online-stock-span/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](solution/0905-sort-array-by-parity/) |
 | 0918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Java](solution/0918-maximum-sum-circular-subarray/) |
