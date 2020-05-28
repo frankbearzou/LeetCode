@@ -122,6 +122,7 @@
 | 0303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [Java](solution/0303-range-sum-query-immutable/) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [Java](solution/0322-coin-change/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](solution/0328-odd-even-linked-list/) |
+| 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Java](solution/0338-counting-bits/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](solution/0344-reverse-string/) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](solution/0347-top-k-frequent-elements/) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](solution/0349-intersection-of-two-arrays/) |
