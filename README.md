@@ -102,6 +102,7 @@
 | 0203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | [Java](solution/0203-remove-linked-list-elements/) |
 | 0205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [Java](solution/0205-isomorphic-strings/) |
 | 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [Java](solution/0206-reverse-linked-list/) |
+| 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Java](solution/0207-course-schedule/) |
 | 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Java](solution/0208-implement-trie-prefix-tree/) |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Java](solution/0209-minimum-size-subarray-sum/) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Java](solution/0216-combination-sum-iii/) |
