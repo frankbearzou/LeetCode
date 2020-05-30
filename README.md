@@ -218,6 +218,7 @@
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Java](solution/0944-delete-columns-to-make-sorted/) |
 | 0961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Java](solution/0961-n-repeated-element-in-size-2n-array/) |
 | 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Java](solution/0965-univalued-binary-tree/) |
+| 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Java](solution/0973-k-closest-points-to-origin/) |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](solution/0977-squares-of-a-sorted-array/) |
 | 0985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Java](solution/0985-sum-of-even-numbers-after-queries/) |
 | 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [Java](solution/0986-interval-list-intersections/) |
