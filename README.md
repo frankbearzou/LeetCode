@@ -48,6 +48,7 @@
 | 0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [Java](solution/0067-add-binary/) |
 | 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Java](solution/0069-sqrtx/) |
 | 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Java](solution/0070-climbing-stairs/) |
+| 0072 | [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Java](solution/0072-edit-distance/) |
 | 0077 | [Combinations](https://leetcode.com/problems/combinations/) | [Java](solution/0077-combinations/) |
 | 0078 | [Subsets](https://leetcode.com/problems/subsets/) | [Java](solution/0078-subsets/) |
 | 0079 | [Word Search](https://leetcode.com/problems/word-search/) | [Java](solution/0079-word-search/) |
