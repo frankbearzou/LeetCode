@@ -117,6 +117,7 @@
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](solution/0234-palindrome-linked-list/) |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Java](solution/0235-lowest-common-ancestor-of-a-binary-search-tree/) |
 | 0236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Java](solution/0236-lowest-common-ancestor-of-a-binary-tree/) |
+| 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Java](solution/0237-delete-node-in-a-linked-list/) |
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](solution/0238-product-of-array-except-self/) |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Java](solution/0257-binary-tree-paths/) |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](solution/0278-first-bad-version/) |
