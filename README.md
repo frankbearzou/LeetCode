@@ -106,6 +106,7 @@
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Java](solution/0207-course-schedule/) |
 | 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Java](solution/0208-implement-trie-prefix-tree/) |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Java](solution/0209-minimum-size-subarray-sum/) |
+| 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Java](solution/0213-house-robber-ii/) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Java](solution/0216-combination-sum-iii/) |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](solution/0217-contains-duplicate/) |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Java](solution/0219-contains-duplicate-ii/) |
