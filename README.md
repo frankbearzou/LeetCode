@@ -232,6 +232,7 @@
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](solution/1003-check-if-word-is-valid-after-substitutions/) |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Java](solution/1008-construct-binary-search-tree-from-preorder-traversal/) |
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Java](solution/1021-remove-outermost-parentheses/) |
+| 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [Java](solution/1029-two-city-scheduling/) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | [Java](solution/1035-uncrossed-lines/) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Java](solution/1046-last-stone-weight/) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Java](solution/1047-remove-all-adjacent-duplicates-in-string/) |
