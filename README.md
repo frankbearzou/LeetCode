@@ -163,6 +163,7 @@
 | 0515 | [Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Java](solution/0515-find-largest-value-in-each-tree-row/) |
 | 0520 | [Detect Capital](https://leetcode.com/problems/detect-capital/) | [Java](solution/0520-detect-capital/) |
 | 0525 | [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | [Java](solution/0525-contiguous-array/) |
+| 0528 | [Random Pick with Weight](https://leetcode.com/problems/random-pick-with-weight/) | [Java](solution/0528-random-pick-with-weight/) |
 | 0530 | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Java](solution/0530-minimum-absolute-difference-in-bst/) |
 | 0537 | [Complex Number Multiplication](https://leetcode.com/problems/complex-number-multiplication/) | [Java](solution/0537-complex-number-multiplication/) |
 | 0540 | [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/) | [Java](solution/0540-single-element-in-a-sorted-array/) |
