@@ -141,6 +141,7 @@
 | 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Java](solution/0383-ransom-note/) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Java](solution/0387-first-unique-character-in-a-string/) |
 | 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Java](solution/0402-remove-k-digits/) |
+| 0406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Java](solution/0406-queue-reconstruction-by-height/) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](solution/0412-fizz-buzz/) |
 | 0414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Java](solution/0414-third-maximum-number/) |
 | 0429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Java](solution/0429-n-ary-tree-level-order-traversal/) |
