@@ -114,6 +114,7 @@
 | 0225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | [Java](solution/0225-implement-stack-using-queues/) |
 | 0226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [Java](solution/0226-invert-binary-tree/) |
 | 0230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Java](solution/0230-kth-smallest-element-in-a-bst/) |
+| 0231 | [Power of Two](https://leetcode.com/problems/power-of-two/) | [Java](solution/0231-power-of-two/) |
 | 0232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [Java](solution/0232-implement-queue-using-stacks/) |
 | 0234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | [Java](solution/0234-palindrome-linked-list/) |
 | 0235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Java](solution/0235-lowest-common-ancestor-of-a-binary-search-tree/) |
