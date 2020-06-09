@@ -31,6 +31,7 @@
 | 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [Java](solution/0038-count-and-say/) |
 | 0039 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Java](solution/0039-combination-sum/) |
 | 0040 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [Java](solution/0040-combination-sum-ii/) |
+| 0042 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Java](solution/0042-trapping-rain-water/) |
 | 0046 | [Permutations](https://leetcode.com/problems/permutations/) | [Java](solution/0046-permutations/) |
 | 0047 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Java](solution/0047-permutations-ii/) |
 | 0048 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Java](solution/0048-rotate-image/) |
