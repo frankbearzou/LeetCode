@@ -142,6 +142,7 @@
 | 0380 | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Java](solution/0380-insert-delete-getrandom-o1/) |
 | 0383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | [Java](solution/0383-ransom-note/) |
 | 0387 | [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | [Java](solution/0387-first-unique-character-in-a-string/) |
+| 0392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [Java](solution/0392-is-subsequence/) |
 | 0402 | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/) | [Java](solution/0402-remove-k-digits/) |
 | 0406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Java](solution/0406-queue-reconstruction-by-height/) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](solution/0412-fizz-buzz/) |
