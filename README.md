@@ -6,6 +6,7 @@
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](solution/0001-two-sum/) |
 | 0002 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [Java](solution/0002-add-two-numbers/) |
 | 0003 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Java](solution/0003-longest-substring-without-repeating-characters/) |
+| 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Java](solution/0005-longest-palindromic-substring/) |
 | 0006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Java](solution/0006-zigzag-conversion/) |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](solution/0007-reverse-integer/) |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](solution/0009-palindrome-number/) |
