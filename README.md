@@ -86,6 +86,7 @@
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](solution/0125-valid-palindrome/) |
 | 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Java](solution/0129-sum-root-to-leaf-numbers/) |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](solution/0136-single-number/) |
+| 0138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Java](solution/0138-copy-list-with-random-pointer/) |
 | 0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [Java](solution/0141-linked-list-cycle/) |
 | 0142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [Java](solution/0142-linked-list-cycle-ii/) |
 | 0144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Java](solution/0144-binary-tree-preorder-traversal/) |
