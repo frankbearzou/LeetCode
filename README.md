@@ -163,6 +163,7 @@
 | 0451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Java](solution/0451-sort-characters-by-frequency/) |
 | 0454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | [Java](solution/0454-4sum-ii/) |
 | 0461 | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | [Java](solution/0461-hamming-distance/) |
+| 0468 | [Validate IP Address](https://leetcode.com/problems/validate-ip-address/) | [Java](solution/0468-validate-ip-address/) |
 | 0476 | [Number Complement](https://leetcode.com/problems/number-complement/) | [Java](solution/0476-number-complement/) |
 | 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [Java](solution/0485-max-consecutive-ones/) |
 | 0494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Java](solution/0494-target-sum/) |
