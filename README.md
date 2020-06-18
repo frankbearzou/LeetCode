@@ -229,6 +229,7 @@
 | 0804 | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/) | [Java](solution/0804-unique-morse-code-words/) |
 | 0807 | [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/) | [Java](solution/0807-max-increase-to-keep-city-skyline/) |
 | 0814 | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/) | [Java](solution/0814-binary-tree-pruning/) |
+| 0819 | [Most Common Word](https://leetcode.com/problems/most-common-word/) | [Java](solution/0819-most-common-word/) |
 | 0832 | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | [Java](solution/0832-flipping-an-image/) |
 | 0844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | [Java](solution/0844-backspace-string-compare/) |
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Java](solution/0852-peak-index-in-a-mountain-array/) |
