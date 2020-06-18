@@ -132,6 +132,7 @@
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](solution/0238-product-of-array-except-self/) |
 | 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Java](solution/0240-search-a-2d-matrix-ii/) |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Java](solution/0257-binary-tree-paths/) |
+| 0275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](solution/0275-h-index-ii/) |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](solution/0278-first-bad-version/) |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](solution/0283-move-zeroes/) |
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Java](solution/0290-word-pattern/) |
