@@ -118,6 +118,7 @@
 | 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Java](solution/0208-implement-trie-prefix-tree/) |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Java](solution/0209-minimum-size-subarray-sum/) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Java](solution/0213-house-robber-ii/) |
+| 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Java](solution/0215-kth-largest-element-in-an-array/) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Java](solution/0216-combination-sum-iii/) |
 | 0217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [Java](solution/0217-contains-duplicate/) |
 | 0219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | [Java](solution/0219-contains-duplicate-ii/) |
