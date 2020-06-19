@@ -253,6 +253,7 @@
 | 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [Java](solution/0986-interval-list-intersections/) |
 | 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Java](solution/0987-vertical-order-traversal-of-a-binary-tree/) |
 | 0993 | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Java](solution/0993-cousins-in-binary-tree/) |
+| 0994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [Java](solution/0994-rotting-oranges/) |
 | 0997 | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Java](solution/0997-find-the-town-judge/) |
 | 1003 | [Check If Word Is Valid After Substitutions](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) | [Java](solution/1003-check-if-word-is-valid-after-substitutions/) |
 | 1008 | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) | [Java](solution/1008-construct-binary-search-tree-from-preorder-traversal/) |
