@@ -274,6 +274,7 @@
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | [Java](solution/1035-uncrossed-lines/) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Java](solution/1046-last-stone-weight/) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Java](solution/1047-remove-all-adjacent-duplicates-in-string/) |
+| 1048 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Java](solution/1048-running-sum-of-1d-array/) |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/) | [Java](solution/1051-height-checker/) |
 | 1054 | [Distant Barcodes](https://leetcode.com/problems/distant-barcodes/) | [Java](solution/1054-distant-barcodes/) |
 | 1078 | [Occurrences After Bigram](https://leetcode.com/problems/occurrences-after-bigram/) | [Java](solution/1078-occurrences-after-bigram/) |
