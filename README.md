@@ -151,6 +151,7 @@
 | 0304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Java](solution/0304-range-sum-query-2d-immutable/) |
 | 0322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [Java](solution/0322-coin-change/) |
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](solution/0328-odd-even-linked-list/) |
+| 0332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [Java](solution/0332-reconstruct-itinerary/) |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Java](solution/0338-counting-bits/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](solution/0344-reverse-string/) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](solution/0347-top-k-frequent-elements/) |
