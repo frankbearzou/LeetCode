@@ -140,6 +140,7 @@
 | 0238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [Java](solution/0238-product-of-array-except-self/) |
 | 0239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Java](solution/0239-sliding-window-maximum/) |
 | 0240 | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Java](solution/0240-search-a-2d-matrix-ii/) |
+| 0242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Java](solution/0242-valid-anagram/) |
 | 0257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Java](solution/0257-binary-tree-paths/) |
 | 0275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](solution/0275-h-index-ii/) |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](solution/0278-first-bad-version/) |
