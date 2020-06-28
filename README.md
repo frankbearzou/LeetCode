@@ -144,6 +144,7 @@
 | 0275 | [H-Index II](https://leetcode.com/problems/h-index-ii/) | [Java](solution/0275-h-index-ii/) |
 | 0278 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | [Java](solution/0278-first-bad-version/) |
 | 0283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [Java](solution/0283-move-zeroes/) |
+| 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Java](solution/0287-find-the-duplicate-number/) |
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Java](solution/0290-word-pattern/) |
 | 0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](solution/0297-serialize-and-deserialize-binary-tree/) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](solution/0300-longest-increasing-subsequence/) |
