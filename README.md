@@ -297,6 +297,7 @@
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Java](solution/1342-number-of-steps-to-reduce-a-number-to-zero/) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Java](solution/1346-check-if-n-and-its-double-exist/) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [Java](solution/1365-how-many-numbers-are-smaller-than-the-current-number/) |
+| 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [Java](solution/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Java](solution/1470-shuffle-the-array/) |
 | 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | [Java](solution/1476-subrectangle-queries/) |
