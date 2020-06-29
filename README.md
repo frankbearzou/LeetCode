@@ -292,5 +292,6 @@
 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](solution/1302-deepest-leaves-sum/) |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [Java](solution/1325-delete-leaves-with-a-given-value/) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Java](solution/1346-check-if-n-and-its-double-exist/) |
+| 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Java](solution/1470-shuffle-the-array/) |
 | 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | [Java](solution/1476-subrectangle-queries/) |
