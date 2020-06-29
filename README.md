@@ -295,3 +295,4 @@
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Java](solution/1470-shuffle-the-array/) |
 | 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | [Java](solution/1476-subrectangle-queries/) |
+| 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | [Java](solution/1486-xor-operation-in-an-array/) |
