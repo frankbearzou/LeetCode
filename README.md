@@ -285,6 +285,7 @@
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Java](solution/1143-longest-common-subsequence/) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Java](solution/1200-minimum-absolute-difference/) |
 | 1218 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) | [Java](solution/1218-longest-arithmetic-subsequence-of-given-difference/) |
+| 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Java](solution/1221-split-a-string-in-balanced-strings/) |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Java](solution/1232-check-if-it-is-a-straight-line/) |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | [Java](solution/1277-count-square-submatrices-with-all-ones/) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [Java](solution/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) |
