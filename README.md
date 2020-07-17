@@ -274,6 +274,7 @@
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/) | [Java](solution/1021-remove-outermost-parentheses/) |
 | 1029 | [Two City Scheduling](https://leetcode.com/problems/two-city-scheduling/) | [Java](solution/1029-two-city-scheduling/) |
 | 1035 | [Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/) | [Java](solution/1035-uncrossed-lines/) |
+| 1038 | [Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/) | [Java](solution/1038-binary-search-tree-to-greater-sum-tree/) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Java](solution/1046-last-stone-weight/) |
 | 1047 | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Java](solution/1047-remove-all-adjacent-duplicates-in-string/) |
 | 1048 | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | [Java](solution/1048-running-sum-of-1d-array/) |
