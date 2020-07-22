@@ -302,6 +302,7 @@
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Java](solution/1313-decompress-run-length-encoded-list/) |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Java](solution/1315-sum-of-nodes-with-even-valued-grandparent/) |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [Java](solution/1325-delete-leaves-with-a-given-value/) |
+| 1329 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | [Java](solution/1329-sort-the-matrix-diagonally/) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Java](solution/1342-number-of-steps-to-reduce-a-number-to-zero/) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Java](solution/1346-check-if-n-and-its-double-exist/) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [Java](solution/1365-how-many-numbers-are-smaller-than-the-current-number/) |
