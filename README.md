@@ -291,6 +291,7 @@
 | 1218 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) | [Java](solution/1218-longest-arithmetic-subsequence-of-given-difference/) |
 | 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Java](solution/1221-split-a-string-in-balanced-strings/) |
 | 1232 | [Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Java](solution/1232-check-if-it-is-a-straight-line/) |
+| 1252 | [Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/) | [Java](solution/1252-cells-with-odd-values-in-a-matrix/) |
 | 1266 | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/) | [Java](solution/1266-minimum-time-visiting-all-points/) |
 | 1277 | [Count Square Submatrices with All Ones](https://leetcode.com/problems/count-square-submatrices-with-all-ones/) | [Java](solution/1277-count-square-submatrices-with-all-ones/) |
 | 1281 | [Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/) | [Java](solution/1281-subtract-the-product-and-sum-of-digits-of-an-integer/) |
