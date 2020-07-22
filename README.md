@@ -215,6 +215,7 @@
 | 0620 | [Not Boring Movies](https://leetcode.com/problems/not-boring-movies/) | [MySQL](solution/0620-not-boring-movies/) |
 | 0622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | [Java](solution/0622-design-circular-queue/) |
 | 0627 | [Swap Salary](https://leetcode.com/problems/swap-salary/) | [MySQL](solution/0627-swap-salary/) |
+| 0654 | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | [Java](solution/0654-maximum-binary-tree/) |
 | 0657 | [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/) | [Java](solution/0657-robot-return-to-origin/) |
 | 0661 | [Image Smoother](https://leetcode.com/problems/image-smoother/) | [Java](solution/0661-image-smoother/) |
 | 0669 | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | [Java](solution/0669-trim-a-binary-search-tree/) |
