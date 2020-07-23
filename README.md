@@ -313,6 +313,7 @@
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [Java](solution/1389-create-target-array-in-the-given-order/) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
 | 1450 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Java](solution/1450-number-of-students-doing-homework-at-a-given-time/) |
+| 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Java](solution/1464-maximum-product-of-two-elements-in-an-array/) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Java](solution/1470-shuffle-the-array/) |
 | 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | [Java](solution/1476-subrectangle-queries/) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | [Java](solution/1486-xor-operation-in-an-array/) |
