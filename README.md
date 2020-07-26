@@ -320,3 +320,4 @@
 | 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | [Java](solution/1476-subrectangle-queries/) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | [Java](solution/1486-xor-operation-in-an-array/) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | [Java](solution/1512-number-of-good-pairs/) |
+| 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | [Java](solution/1528-shuffle-string/) |
