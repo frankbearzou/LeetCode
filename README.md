@@ -300,6 +300,7 @@
 | 1295 | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | [Java](solution/1295-find-numbers-with-even-number-of-digits/) |
 | 1299 | [Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | [Java](solution/1299-replace-elements-with-greatest-element-on-right-side/) |
 | 1302 | [Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/) | [Java](solution/1302-deepest-leaves-sum/) |
+| 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | [Java](solution/1305-all-elements-in-two-binary-search-trees/) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [Java](solution/1309-decrypt-string-from-alphabet-to-integer-mapping/) |
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Java](solution/1313-decompress-run-length-encoded-list/) |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Java](solution/1315-sum-of-nodes-with-even-valued-grandparent/) |
