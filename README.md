@@ -322,6 +322,7 @@
 | 1450 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Java](solution/1450-number-of-students-doing-homework-at-a-given-time/) |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Java](solution/1464-maximum-product-of-two-elements-in-an-array/) |
 | 1470 | [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Java](solution/1470-shuffle-the-array/) |
+| 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [Java](solution/1475-final-prices-with-a-special-discount-in-a-shop/) |
 | 1476 | [Subrectangle Queries](https://leetcode.com/problems/subrectangle-queries/) | [Java](solution/1476-subrectangle-queries/) |
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | [Java](solution/1486-xor-operation-in-an-array/) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | [Java](solution/1512-number-of-good-pairs/) |
