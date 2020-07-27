@@ -306,6 +306,7 @@
 | 1305 | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | [Java](solution/1305-all-elements-in-two-binary-search-trees/) |
 | 1309 | [Decrypt String from Alphabet to Integer Mapping](https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/) | [Java](solution/1309-decrypt-string-from-alphabet-to-integer-mapping/) |
 | 1313 | [Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Java](solution/1313-decompress-run-length-encoded-list/) |
+| 1314 | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/) | [Java](solution/1314-matrix-block-sum/) |
 | 1315 | [Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Java](solution/1315-sum-of-nodes-with-even-valued-grandparent/) |
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Java](solution/1323-maximum-69-number/) |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [Java](solution/1325-delete-leaves-with-a-given-value/) |
