@@ -260,6 +260,7 @@
 | 0941 | [Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | [Java](solution/0941-valid-mountain-array/) |
 | 0942 | [DI String Match](https://leetcode.com/problems/di-string-match/) | [Java](solution/0942-di-string-match/) |
 | 0944 | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/) | [Java](solution/0944-delete-columns-to-make-sorted/) |
+| 0950 | [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | [Java](solution/0950-reveal-cards-in-increasing-order/) |
 | 0961 | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/) | [Java](solution/0961-n-repeated-element-in-size-2n-array/) |
 | 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Java](solution/0965-univalued-binary-tree/) |
 | 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Java](solution/0973-k-closest-points-to-origin/) |
