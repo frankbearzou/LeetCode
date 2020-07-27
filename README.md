@@ -310,6 +310,7 @@
 | 1329 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | [Java](solution/1329-sort-the-matrix-diagonally/) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Java](solution/1342-number-of-steps-to-reduce-a-number-to-zero/) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Java](solution/1346-check-if-n-and-its-double-exist/) |
+| 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | [Java](solution/1347-minimum-number-of-steps-to-make-two-strings-anagram/) |
 | 1351 | [Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/) | [Java](solution/1351-count-negative-numbers-in-a-sorted-matrix/) |
 | 1365 | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | [Java](solution/1365-how-many-numbers-are-smaller-than-the-current-number/) |
 | 1370 | [Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | [Java](solution/1370-increasing-decreasing-string/) |
