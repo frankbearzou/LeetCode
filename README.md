@@ -290,6 +290,7 @@
 | 1108 | [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/) | [Java](solution/1108-defanging-an-ip-address/) |
 | 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/) | [Java](solution/1137-n-th-tribonacci-number/) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Java](solution/1143-longest-common-subsequence/) |
+| 1161 | [Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Java](solution/1161-maximum-level-sum-of-a-binary-tree/) |
 | 1200 | [Minimum Absolute Difference](https://leetcode.com/problems/minimum-absolute-difference/) | [Java](solution/1200-minimum-absolute-difference/) |
 | 1218 | [Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/) | [Java](solution/1218-longest-arithmetic-subsequence-of-given-difference/) |
 | 1221 | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Java](solution/1221-split-a-string-in-balanced-strings/) |
