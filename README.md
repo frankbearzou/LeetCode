@@ -323,6 +323,7 @@
 | 1370 | [Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/) | [Java](solution/1370-increasing-decreasing-string/) |
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | [Java](solution/1374-generate-a-string-with-characters-that-have-odd-counts/) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [Java](solution/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) |
+| 1380 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | [Java](solution/1380-lucky-numbers-in-a-matrix/) |
 | 1395 | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | [Java](solution/1395-count-number-of-teams/) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [Java](solution/1389-create-target-array-in-the-given-order/) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
