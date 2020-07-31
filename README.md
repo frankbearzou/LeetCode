@@ -330,6 +330,7 @@
 | 1403 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | [Java](solution/1403-minimum-subsequence-in-non-increasing-order/) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Java](solution/1436-destination-city/) |
+| 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Java](solution/1448-count-good-nodes-in-binary-tree/) |
 | 1450 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Java](solution/1450-number-of-students-doing-homework-at-a-given-time/) |
 | 1460 | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/) | [Java](solution/1460-make-two-arrays-equal-by-reversing-sub-arrays/) |
 | 1464 | [Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/) | [Java](solution/1464-maximum-product-of-two-elements-in-an-array/) |
