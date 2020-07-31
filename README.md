@@ -327,6 +327,7 @@
 | 1380 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | [Java](solution/1380-lucky-numbers-in-a-matrix/) |
 | 1395 | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | [Java](solution/1395-count-number-of-teams/) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [Java](solution/1389-create-target-array-in-the-given-order/) |
+| 1403 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | [Java](solution/1403-minimum-subsequence-in-non-increasing-order/) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Java](solution/1436-destination-city/) |
 | 1450 | [Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) | [Java](solution/1450-number-of-students-doing-homework-at-a-given-time/) |
