@@ -252,6 +252,7 @@
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](solution/0876-middle-of-the-linked-list/) |
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [Java](solution/0886-possible-bipartition/) |
 | 0890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Java](solution/0890-find-and-replace-pattern/) |
+| 0897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Java](solution/0897-increasing-order-search-tree/) |
 | 0901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | [Java](solution/0901-online-stock-span/) |
 | 0905 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | [Java](solution/0905-sort-array-by-parity/) |
 | 0918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Java](solution/0918-maximum-sum-circular-subarray/) |
