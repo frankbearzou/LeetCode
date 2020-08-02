@@ -173,6 +173,7 @@
 | 0406 | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [Java](solution/0406-queue-reconstruction-by-height/) |
 | 0412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/) | [Java](solution/0412-fizz-buzz/) |
 | 0414 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | [Java](solution/0414-third-maximum-number/) |
+| 0419 | [Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/) | [Java](solution/0419-battleships-in-a-board/) |
 | 0429 | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [Java](solution/0429-n-ary-tree-level-order-traversal/) |
 | 0437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Java](solution/0437-path-sum-iii/) |
 | 0438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Java](solution/0438-find-all-anagrams-in-a-string/) |
