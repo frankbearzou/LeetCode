@@ -253,6 +253,7 @@
 | 0852 | [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) | [Java](solution/0852-peak-index-in-a-mountain-array/) |
 | 0872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Java](solution/0872-leaf-similar-trees/) |
 | 0876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | [Java](solution/0876-middle-of-the-linked-list/) |
+| 0881 | [Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/) | [Java](solution/0881-subdomain-visit-count/) |
 | 0886 | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/) | [Java](solution/0886-possible-bipartition/) |
 | 0890 | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Java](solution/0890-find-and-replace-pattern/) |
 | 0897 | [Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Java](solution/0897-increasing-order-search-tree/) |
