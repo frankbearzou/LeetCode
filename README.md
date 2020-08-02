@@ -150,6 +150,7 @@
 | 0287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [Java](solution/0287-find-the-duplicate-number/) |
 | 0290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | [Java](solution/0290-word-pattern/) |
 | 0297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Java](solution/0297-serialize-and-deserialize-binary-tree/) |
+| 0299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) | [Java](solution/0299-bulls-and-cows/) |
 | 0300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Java](solution/0300-longest-increasing-subsequence/) |
 | 0303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | [Java](solution/0303-range-sum-query-immutable/) |
 | 0304 | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/) | [Java](solution/0304-range-sum-query-2d-immutable/) |
