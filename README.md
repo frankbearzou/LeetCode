@@ -341,4 +341,5 @@
 | 1486 | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/) | [Java](solution/1486-xor-operation-in-an-array/) |
 | 1502 | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/) | [Java](solution/1502-can-make-arithmetic-progression-from-sequence/) |
 | 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | [Java](solution/1512-number-of-good-pairs/) |
+| 1525 | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/) | [Java](solution/1525-number-of-good-ways-to-split-a-string/) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | [Java](solution/1528-shuffle-string/) |
