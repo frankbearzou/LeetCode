@@ -326,6 +326,7 @@
 | 1374 | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | [Java](solution/1374-generate-a-string-with-characters-that-have-odd-counts/) |
 | 1379 | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [Java](solution/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) |
 | 1380 | [Lucky Numbers in a Matrix](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) | [Java](solution/1380-lucky-numbers-in-a-matrix/) |
+| 1387 | [Sort Integers by The Power Value](https://leetcode.com/problems/sort-integers-by-the-power-value/) | [Java](solution/1387-sort-integers-by-the-power-value/) |
 | 1395 | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | [Java](solution/1395-count-number-of-teams/) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [Java](solution/1389-create-target-array-in-the-given-order/) |
 | 1403 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | [Java](solution/1403-minimum-subsequence-in-non-increasing-order/) |
