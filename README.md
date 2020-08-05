@@ -123,6 +123,7 @@
 | 0207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Java](solution/0207-course-schedule/) |
 | 0208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Java](solution/0208-implement-trie-prefix-tree/) |
 | 0209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Java](solution/0209-minimum-size-subarray-sum/) |
+| 0211 | [Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/) | [Java](solution/0211-add-and-search-word-data-structure-design/) |
 | 0213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Java](solution/0213-house-robber-ii/) |
 | 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [Java](solution/0215-kth-largest-element-in-an-array/) |
 | 0216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Java](solution/0216-combination-sum-iii/) |
