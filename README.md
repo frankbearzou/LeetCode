@@ -158,6 +158,7 @@
 | 0328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) | [Java](solution/0328-odd-even-linked-list/) |
 | 0332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [Java](solution/0332-reconstruct-itinerary/) |
 | 0338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [Java](solution/0338-counting-bits/) |
+| 0342 | [Power of Four](https://leetcode.com/problems/power-of-four/) | [Java](solution/0342-power-of-four/) |
 | 0344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | [Java](solution/0344-reverse-string/) |
 | 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](solution/0347-top-k-frequent-elements/) |
 | 0349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [Java](solution/0349-intersection-of-two-arrays/) |
