@@ -265,6 +265,7 @@
 | 0918 | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/) | [Java](solution/0918-maximum-sum-circular-subarray/) |
 | 0921 | [Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) | [Java](solution/0921-minimum-add-to-make-parentheses-valid/) |
 | 0929 | [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/) | [Java](solution/0929-unique-email-addresses/) |
+| 0931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Java](solution/0931-minimum-falling-path-sum/) |
 | 0933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [Java](solution/0933-number-of-recent-calls/) |
 | 0937 | [Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/) | [Java](solution/0937-reorder-data-in-log-files/) |
 | 0938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/) | [Java](solution/0938-range-sum-of-bst/) |
