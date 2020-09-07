@@ -277,6 +277,7 @@
 | 0965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/) | [Java](solution/0965-univalued-binary-tree/) |
 | 0973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Java](solution/0973-k-closest-points-to-origin/) |
 | 0977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Java](solution/0977-squares-of-a-sorted-array/) |
+| 0979 | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) | [Java](solution/0979-distribute-coins-in-binary-tree/) |
 | 0985 | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/) | [Java](solution/0985-sum-of-even-numbers-after-queries/) |
 | 0986 | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/) | [Java](solution/0986-interval-list-intersections/) |
 | 0987 | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Java](solution/0987-vertical-order-traversal-of-a-binary-tree/) |
