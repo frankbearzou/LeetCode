@@ -327,6 +327,7 @@
 | 1323 | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/) | [Java](solution/1323-maximum-69-number/) |
 | 1325 | [Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [Java](solution/1325-delete-leaves-with-a-given-value/) |
 | 1329 | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | [Java](solution/1329-sort-the-matrix-diagonally/) |
+| 1337 | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/) | [Java](solution/1337-the-k-weakest-rows-in-a-matrix/) |
 | 1342 | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/) | [Java](solution/1342-number-of-steps-to-reduce-a-number-to-zero/) |
 | 1346 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | [Java](solution/1346-check-if-n-and-its-double-exist/) |
 | 1347 | [Minimum Number of Steps to Make Two Strings Anagram](https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/) | [Java](solution/1347-minimum-number-of-steps-to-make-two-strings-anagram/) |
