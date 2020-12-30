@@ -357,3 +357,4 @@
 | 1525 | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/) | [Java](solution/1525-number-of-good-ways-to-split-a-string/) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | [Java](solution/1528-shuffle-string/) |
 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | [Java](solution/1551-minimum-operations-to-make-array-equal/) |
+| 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Java](solution/1672-richest-customer-wealth/) |
