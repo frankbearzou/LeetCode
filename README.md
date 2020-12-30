@@ -358,3 +358,4 @@
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | [Java](solution/1528-shuffle-string/) |
 | 1551 | [Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/) | [Java](solution/1551-minimum-operations-to-make-array-equal/) |
 | 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [Java](solution/1672-richest-customer-wealth/) |
+| 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [Java](solution/1689-partitioning-into-minimum-number-of-deci-binary-numbers/) |
