@@ -341,6 +341,7 @@
 | 1395 | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | [Java](solution/1395-count-number-of-teams/) |
 | 1389 | [Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/) | [Java](solution/1389-create-target-array-in-the-given-order/) |
 | 1403 | [Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/) | [Java](solution/1403-minimum-subsequence-in-non-increasing-order/) |
+| 1423 | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Java](solution/1423-maximum-points-you-can-obtain-from-cards/) |
 | 1431 | [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [Java](solution/1431-kids-with-the-greatest-number-of-candies/) |
 | 1436 | [Destination City](https://leetcode.com/problems/destination-city/) | [Java](solution/1436-destination-city/) |
 | 1448 | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [Java](solution/1448-count-good-nodes-in-binary-tree/) |
