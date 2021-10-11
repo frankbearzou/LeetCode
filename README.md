@@ -89,6 +89,7 @@
 | 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](solution/0122-best-time-to-buy-and-sell-stock-ii/) |
 | 0124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Java](solution/0124-binary-tree-maximum-path-sum/) |
 | 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [Java](solution/0125-valid-palindrome/) |
+| 0128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [Java](solution/0128-longest-consecutive-sequence/) |
 | 0129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Java](solution/0129-sum-root-to-leaf-numbers/) |
 | 0130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | [Java](solution/0130-surrounded-regions/) |
 | 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [Java](solution/0136-single-number/) |
