@@ -11,6 +11,7 @@
 | 0005 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [Java](solution/0005-longest-palindromic-substring/) |
 | 0006 | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/) | [Java](solution/0006-zigzag-conversion/) |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Java](solution/0007-reverse-integer/) |
+| 0008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Java](solution/0008-string-to-integer-atoi/) |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](solution/0009-palindrome-number/) |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Java](solution/0011-container-with-most-water/) |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Java](solution/0013-roman-to-integer/) |
