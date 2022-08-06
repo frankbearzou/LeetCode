@@ -14,6 +14,7 @@
 | 0008 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Java](solution/0008-string-to-integer-atoi/) |
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [Java](solution/0009-palindrome-number/) |
 | 0011 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [Java](solution/0011-container-with-most-water/) |
+| 0012 | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/) | [Java](solution/0012-integer-to-roman/) |
 | 0013 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | [Java](solution/0013-roman-to-integer/) |
 | 0014 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [Java](solution/0014-longest-common-prefix/) |
 | 0015 | [3Sum](https://leetcode.com/problems/3sum/) | [Java](solution/0015-3sum/) |
