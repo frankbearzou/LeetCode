@@ -367,3 +367,4 @@
 | 1678 | [Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/) | [Java](solution/1678-goal-parser-interpretation/) |
 | 1689 | [Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [Java](solution/1689-partitioning-into-minimum-number-of-deci-binary-numbers/) |
 | 2235 | [Add Two Integers](https://leetcode.com/problems/add-two-integers/) | [Java](solution/2235-add-two-integers/) |
+| 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/) | [Java](solution/2236-root-equals-sum-of-children/) |
