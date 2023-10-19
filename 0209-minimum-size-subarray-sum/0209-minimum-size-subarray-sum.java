@@ -6,12 +6,8 @@ class Solution {
             sum += nums[r];
             while (sum >= target) {
                 ans = Math.min(ans, r - l + 1);
-                if(l < r) {
-                    sum -= nums[l];
-                    l++;
-                } else {
-                    break;
-                }
+                sum -= nums[l];
+                l++;
             }
             r++;
         }
