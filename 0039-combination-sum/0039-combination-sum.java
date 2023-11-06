@@ -13,10 +13,10 @@ class Solution {
         }
         for (int i = index; i < candidates.length; i++) {
             if (target - candidates[i] < 0)
-                continue;
+                break;
             list.add(candidates[i]);
             backtracking(candidates, i, list, ans, target - candidates[i]);
-            list.remove(Integer.valueOf(candidates[i]));
+            list.remove(list.size() - 1);
         }
     }
 }
