@@ -1,20 +1,15 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
-        if (s.length() != t.length()) {
+        if (s.length() != t.length())
             return false;
+        int[] map = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            map[s.charAt(i) - 'a']++;
+            map[t.charAt(i) - 'a']--;
         }
-        int[] sMap = new int[26];
-        int[] tMap = new int[26];
-        for (char c : s.toCharArray()) {
-            sMap[c - 'a']++;
-        }
-        for (char c : t.toCharArray()) {
-            tMap[c - 'a']++;
-        }
-        for (int i = 0; i < 26; i++) {
-            if (sMap[i] != tMap[i]) {
+        for (int i : map) {
+            if (i != 0)
                 return false;
-            }
         }
         return true;
     }
