@@ -16,18 +16,31 @@
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> ans = new ArrayList<>();
-        path(root, "", ans);
+        if (root == null)
+            return ans;
+        List<String> list = new ArrayList<>();
+        path(root, list, ans);
         return ans;
     }
 
-    void path(TreeNode root, String s, List<String> ans) {
-        if (root == null)
-            return;
+    void path(TreeNode root, List<String> list, List<String> ans) {
+        list.add("" + root.val);
         if (root.left == null && root.right == null) {
-            ans.add(s + root.val);
+            String s = "";
+            for (int i = 0; i < list.size() - 1; i++) {
+                s += list.get(i) + "->";
+            }
+            s += list.get(list.size() - 1);
+            ans.add(s);
             return;
         }
-        path(root.left, s + root.val + "->", ans);
-        path(root.right, s + root.val + "->", ans);
+        if (root.left != null) {
+            path(root.left, list, ans);
+            list.remove(list.size() - 1);
+        }
+        if (root.right != null) {
+            path(root.right, list, ans);
+            list.remove(list.size() - 1);
+        }
     }
 }
