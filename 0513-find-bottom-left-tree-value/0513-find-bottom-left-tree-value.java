@@ -17,7 +17,7 @@ class Solution {
     int maxDepth = 0;
     int ans = 0;
     public int findBottomLeftValue(TreeNode root) {
-        dfs(root, 0);
+        dfs(root, 1);
         return ans;
     }
 
