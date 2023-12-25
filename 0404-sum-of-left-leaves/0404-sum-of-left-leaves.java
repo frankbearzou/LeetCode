@@ -17,9 +17,10 @@ class Solution {
     public int sumOfLeftLeaves(TreeNode root) {
         if (root == null)
             return 0;
-        int l = 0;
+        int left = sumOfLeftLeaves(root.left);
+        int right = sumOfLeftLeaves(root.right);
         if (root.left != null && root.left.left == null && root.left.right == null)
-            l = root.left.val;
-        return l + sumOfLeftLeaves(root.left) + sumOfLeftLeaves(root.right);
+            left = root.left.val;
+        return left + right;
     }
 }
