@@ -4,22 +4,22 @@ class Solution {
         for (int num : nums) {
             sum += num;
         }
-        if (sum % 2 != 0)
+        if ((sum & 1) == 1)
             return false;
-        Boolean[][] cache = new Boolean[nums.length][sum / 2 + 1];
-        return dfs(nums, 0, sum / 2, cache);
-    }
-
-    boolean dfs(int[] nums, int index, int target, Boolean[][] cache) {
-        if (index >= nums.length)
-            return false;
-        if (target < 0)
-            return false;
-        if (target == 0)
-            return true;
-        if (cache[index][target] != null)
-            return cache[index][target];
-        cache[index][target] = dfs(nums, index + 1, target, cache) || dfs(nums, index + 1, target - nums[index], cache);
-        return cache[index][target];
+        sum /= 2;
+        boolean[][] dp = new boolean[nums.length + 1][sum + 1];
+        for (int i = 0; i < dp.length; i++) {
+            dp[i][0] = true;
+        }
+        for (int i = 1; i < dp.length; i++) {
+            for (int j = 1; j < dp[0].length; j++) {
+                if (j < nums[i - 1]) {
+                    dp[i][j] = dp[i - 1][j];
+                } else {
+                    dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i - 1]];
+                }
+            }
+        }
+        return dp[dp.length - 1][sum];
     }
 }
