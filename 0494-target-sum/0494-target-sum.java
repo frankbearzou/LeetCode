@@ -1,14 +1,19 @@
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
-        return backtracking(nums, 0, target);
-    }
-
-    int backtracking(int[] nums, int start, int target) {
-        if (start >= nums.length) {
-            if (target == 0)
-                return 1;
-            return 0;
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
         }
-        return backtracking(nums, start + 1, target + nums[start]) + backtracking(nums, start + 1, target - nums[start]);
+        if (sum < Math.abs(target) || (sum + target) % 2 != 0)
+            return 0;
+        int bag = (sum + target) / 2;
+        int[] dp = new int[(bag + 1)];
+        dp[0] = 1;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = bag; j >= nums[i]; j--) {
+                dp[j] += dp[j - nums[i]];
+            }
+        }
+        return dp[bag];
     }
 }
