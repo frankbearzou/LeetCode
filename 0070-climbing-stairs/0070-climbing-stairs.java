@@ -1,17 +1,14 @@
 class Solution {
-    Map<Integer, Integer> cache = new HashMap<>();
-
     public int climbStairs(int n) {
-        return dfs(n);
-    }
-
-    int dfs(int n) {
-        if (n <= 2)
-            return n;
-        if (cache.containsKey(n))
-            return cache.get(n);
-        int ret = dfs(n - 1) + dfs(n - 2);
-        cache.put(n, ret);
-        return ret;
+        // unbounded knapsack
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        for (int j = 0; j <= n; j++) {
+            for (int i = 1; i <= 2; i++) {
+                if (j - i >= 0)
+                    dp[j] += dp[j - i];
+            }
+        }
+        return dp[n];
     }
 }
