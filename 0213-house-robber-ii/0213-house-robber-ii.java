@@ -13,7 +13,7 @@ class Solution {
         dp[1] = Math.max(nums[start], nums[start + 1]);
         for (int i = 2; i < dp.length; i++) {
             dp[i] = Math.max(dp[i - 1], nums[i + start] + dp[i - 2]);
-        }System.out.println(start+","+end+":"+dp[dp.length - 1]);
+        }
         return dp[dp.length - 1];
     }
 }
