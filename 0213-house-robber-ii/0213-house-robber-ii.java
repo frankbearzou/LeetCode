@@ -1,16 +1,19 @@
 class Solution {
     public int rob(int[] nums) {
-        return Math.max(nums[0], Math.max(rob(nums, 0, nums.length - 1), rob(nums, 1, nums.length)));
+        if (nums.length == 1)
+            return nums[0];
+        if (nums.length == 2)
+            return Math.max(nums[0], nums[1]);
+        return Math.max(rob(nums, 0, nums.length - 2), rob(nums, 1, nums.length - 1));
     }
 
     int rob(int[] nums, int start, int end) {
-        // r1, r2, 0, 1, ...
-        int r1 = 0, r2 = 0;
-        for (int i = start; i < end; i++) {
-            int t = Math.max(r1 + nums[i], r2);
-            r1 = r2;
-            r2 = t;
-        }
-        return r2;
+        int[] dp = new int[end - start + 1];
+        dp[0] = nums[start];
+        dp[1] = Math.max(nums[start], nums[start + 1]);
+        for (int i = 2; i < dp.length; i++) {
+            dp[i] = Math.max(dp[i - 1], nums[i + start] + dp[i - 2]);
+        }System.out.println(start+","+end+":"+dp[dp.length - 1]);
+        return dp[dp.length - 1];
     }
 }
