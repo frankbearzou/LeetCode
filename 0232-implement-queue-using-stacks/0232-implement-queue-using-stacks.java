@@ -4,7 +4,7 @@ class MyQueue {
 
     public MyQueue() {
         s1 = new Stack<>();
-        s2 = new Stack<>();
+        s2 = new Stack<>();        
     }
     
     public void push(int x) {
@@ -15,7 +15,9 @@ class MyQueue {
         if (!s2.isEmpty()) {
             return s2.pop();
         }
-        swap();
+        while (!s1.isEmpty()) {
+            s2.push(s1.pop());
+        }
         return s2.pop();
     }
     
@@ -23,18 +25,14 @@ class MyQueue {
         if (!s2.isEmpty()) {
             return s2.peek();
         }
-        swap();
+        while (!s1.isEmpty()) {
+            s2.push(s1.pop());
+        }
         return s2.peek();
     }
     
     public boolean empty() {
         return s1.isEmpty() && s2.isEmpty();
-    }
-
-    private void swap() {
-        while (!s1.isEmpty()) {
-            s2.push(s1.pop());
-        }
     }
 }
 
