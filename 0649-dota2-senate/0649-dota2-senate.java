@@ -1,44 +1,23 @@
 class Solution {
     public String predictPartyVictory(String senate) {
-        char[] arr = senate.toCharArray();
-        int r = 0, d = 0;
-        for (char c : arr) {
-            if (c == 'R')
-                r++;
+        int n = senate.length();
+        Deque<Integer> r = new ArrayDeque<>();
+        Deque<Integer> d = new ArrayDeque<>();
+        for (int i = 0; i < n; i++) {
+            if (senate.charAt(i) == 'R')
+                r.offer(i);
             else
-                d++;
+                d.offer(i);
         }
-        while (r > 0 && d > 0) {
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i] == '0')
-                    continue;
-                if (arr[i] == 'R') {
-                    remove(arr, i, 'D');
-                    d--;
-                } else if (arr[i] == 'D') {
-                    remove(arr, i, 'R');
-                    r--;
-                }
+        while (!r.isEmpty() && !d.isEmpty()) {
+            if (r.peek() < d.peek()) {
+                r.offer(n++);
+            } else {
+                d.offer(n++);
             }
+            r.poll();
+            d.poll();
         }
-        if (r > 0)
-            return "Radiant";
-        else
-            return "Dire";
-    }
-
-    void remove(char[] arr, int index, char c) {
-        for (int i = index + 1; i < arr.length; i++) {
-            if (arr[i] == c) {
-                arr[i] = '0';
-                return;
-            }
-        }
-        for (int i = 0; i < index; i++) {
-            if (arr[i] == c) {
-                arr[i] = '0';
-                return;
-            }
-        }
+        return !r.isEmpty() ? "Radiant" : "Dire";
     }
 }
