@@ -1,4 +1,5 @@
 class MinStack {
+
     private Stack<Integer> stack;
     private Stack<Integer> minStack;
 
@@ -8,12 +9,9 @@ class MinStack {
     }
     
     public void push(int val) {
+        int min = stack.isEmpty() ? val : Math.min(val, minStack.peek());
         stack.push(val);
-        if (minStack.isEmpty()) {
-            minStack.push(val);
-        } else {
-            minStack.push(Math.min(minStack.peek(), val));
-        }
+        minStack.push(min);
     }
     
     public void pop() {
