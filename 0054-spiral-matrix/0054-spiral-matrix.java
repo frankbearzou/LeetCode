@@ -1,31 +1,43 @@
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
-        if (matrix == null || matrix.length == 0)
-            return new ArrayList<>();
-        int left = 0, right = matrix[0].length - 1, up = 0, down = matrix.length -1;
-        List<Integer> result = new ArrayList<>();
-        while (left <= right && up <= down) {
-            //up
-            for (int i = left; i <= right; i++)
-                result.add(matrix[up][i]);
-            up++;
-            //right
-            for (int i = up; i <= down; i++)
-                result.add(matrix[i][right]);
-            right--;
-            //down
-            if (up <= down) {
-                for (int i = right; i >= left; i--)
-                    result.add(matrix[down][i]);
-                down--;
+        List<Integer> list = new ArrayList<>();
+        int l = 0, r = matrix[0].length - 1, u = 0, d = matrix.length - 1;
+        while (l <= r && u <= d) {
+            print(matrix, list, l, r, u, d);
+            l++;
+            r--;
+            u++;
+            d--;
+        }
+        return list;
+    }
+
+    void print(int[][] matrix, List<Integer> list, int l, int r, int u, int d) {
+        if (l == r) {
+            for (int i = u; i <= d; i++) {
+                list.add(matrix[i][l]);
             }
-            //left
-            if (left <= right) {
-                for (int i = down; i >= up; i--)
-                    result.add(matrix[i][left]);
-                left++;
+        } else if (u == d) {
+            for (int j = l; j <= r; j++) {
+                list.add(matrix[u][j]);
+            }
+        } else {
+            // up
+            for (int j = l; j < r; j++) {
+                list.add(matrix[u][j]);
+            }
+            // right
+            for (int i = u; i < d; i++) {
+                list.add(matrix[i][r]);
+            }
+            // down
+            for (int j = r; j > l; j--) {
+                list.add(matrix[d][j]);
+            }
+            // left
+            for (int i = d; i > u; i--) {
+                list.add(matrix[i][l]);
             }
         }
-        return result;
     }
 }
