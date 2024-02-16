@@ -1,21 +1,20 @@
 class Solution {
     public void rotate(int[][] matrix) {
-        int l = 0, r = matrix.length - 1;
-        while (l < r) {
-            for (int i = 0; i < r - l; i++) {
-                int up = l, down = r;
-                int t = matrix[up][l + i];
-                // move left down to left up
-                matrix[up][l + i] = matrix[down - i][l];
-                // move right down to left down
-                matrix[down - i][l] = matrix[down][r - i];
-                // move right up to right down
-                matrix[down][r - i] = matrix[up + i][r];
-                // move left up to right down
-                matrix[up + i][r] = t;
+        // up and down flip
+        for (int i = 0; i < matrix.length / 2; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                int t = matrix[i][j];
+                matrix[i][j] = matrix[matrix.length - i - 1][j];
+                matrix[matrix.length - i - 1][j] = t;
             }
-            l++;
-            r--;
+        }
+        // up left and down right diagonal flip
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < i; j++) {
+                int t = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = t;
+            }
         }
     }
 }
