@@ -1,30 +1,39 @@
 class Solution {
+    int counter = 1;
+
     public int[][] generateMatrix(int n) {
-        int[][] ans = new int[n][n];
-        int left = 0, right = n - 1, up = 0, down = n - 1;
-        int count = 1;
-        while (left < right) {
-            // 1 up, left to right
-            for (int i = left; i < right; i++) {
-                ans[up][i] = count++;
-            }
-            // 2 right, up to down
-            for (int i = up; i < down; i++) {
-                ans[i][right] = count++;
-            }
-            // 3 down, right to left
-            for (int i = right; i > left; i--) {
-                ans[down][i] = count++;
-            }
-            // 4 left, down to up
-            for (int i = down; i > up; i--) {
-                ans[i][left] = count++;
-            }
-            left++; right--; up++; down--;
+        int[][] matrix = new int[n][n];
+        int l = 0, r = n - 1, u = 0, d = n - 1;
+        while (l <= r && u <= d) {
+            print(matrix, l, r, u, d);
+            l++;
+            r--;
+            u++;
+            d--;
         }
-        if ((n & 1) == 1) {
-            ans[up][left] = count++;
+        return matrix;
+    }
+
+    void print(int[][] matrix, int l, int r, int u, int d) {
+        if (l == r || u == d) {
+            matrix[u][l] = counter++;
+        } else {
+            // up
+            for (int j = l; j < r; j++) {
+                matrix[u][j] = counter++;
+            }
+            // right
+            for (int i = u; i < d; i++) {
+                matrix[i][r] = counter++;
+            }
+            // down
+            for (int j = r; j > l; j--) {
+                matrix[d][j] = counter++;
+            }
+            // left
+            for (int i = d; i > u; i--) {
+                matrix[i][l] = counter++;
+            }
         }
-        return ans;
     }
 }
