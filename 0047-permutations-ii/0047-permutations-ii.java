@@ -1,14 +1,18 @@
 class Solution {
+    List<List<Integer>> ans = new ArrayList<>();
+    List<Integer> path = new ArrayList<>();
+    boolean[] used;
+    int[] nums;
+
     public List<List<Integer>> permuteUnique(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> path = new ArrayList<>();
-        boolean[] used = new boolean[nums.length];
         Arrays.sort(nums);
-        backtracking(nums, used, path, ans);
+        this.nums = nums;
+        used = new boolean[nums.length];
+        backtracking(0);
         return ans;
     }
 
-    void backtracking(int[] nums, boolean[] used, List<Integer> path, List<List<Integer>> ans) {
+    void backtracking(int index) {
         if (path.size() == nums.length) {
             ans.add(new ArrayList(path));
             return;
@@ -20,7 +24,7 @@ class Solution {
                 continue;
             used[i] = true;
             path.add(nums[i]);
-            backtracking(nums, used, path, ans);
+            backtracking(i + 1);
             path.remove(path.size() - 1);
             used[i] = false;
         }
