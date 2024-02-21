@@ -1,31 +1,30 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
-        Set<Integer> visited = new HashSet<>();
-        for (int[] pre : prerequisites) {
-            List<Integer> list = map.getOrDefault(pre[0], new ArrayList());
-            list.add(pre[1]);
-            map.put(pre[0], list);
-        }
+        List<List<Integer>> edges = new ArrayList<>();
         for (int i = 0; i < numCourses; i++) {
-            if (!dfs(map, i, visited))
+            edges.add(new ArrayList());
+        }
+        for (int[] pre : prerequisites) {
+            edges.get(pre[1]).add(pre[0]);
+        }
+        boolean[] visited = new boolean[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            if (!dfs(edges, i, visited))
                 return false;
         }
         return true;
     }
 
-    boolean dfs(Map<Integer, List<Integer>> map, int i, Set<Integer> visited) {
-        if (visited.contains(i))
+    boolean dfs(List<List<Integer>> edges, int i, boolean[] visited) {
+        if (visited[i])
             return false;
-        if (!map.containsKey(i))
-            return true;
-        visited.add(i);
-        for (int nei : map.get(i)) {
-            if (!dfs(map, nei, visited))
+        visited[i] = true;
+        for (int nei : edges.get(i)) {
+            if (!dfs(edges, nei, visited))
                 return false;
         }
-        visited.remove(i);
-        map.remove(i);
+        visited[i] = false;
+        edges.get(i).clear();
         return true;
     }
 }
