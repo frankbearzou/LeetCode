@@ -15,20 +15,21 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        Map<Integer, Integer> inMap = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < inorder.length; i++) {
-            inMap.put(inorder[i], i);
+            map.put(inorder[i], i);
         }
-        return buildTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, inMap);
+        return buildTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, map);
     }
-    private TreeNode buildTree(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd, Map<Integer, Integer> inMap) {
-        if (preStart > preEnd || inStart > inEnd)
+
+    TreeNode buildTree(int[] preorder, int preL, int preR, int[] inorder, int inL, int inR, Map<Integer, Integer> map) {
+        if (preL > preR || inL > inR)
             return null;
-        TreeNode root = new TreeNode(preorder[preStart]);
-        int inIndex = inMap.get(root.val);
-        int leftLen = inIndex - inStart;
-        root.left = buildTree(preorder, preStart + 1, preStart + leftLen, inorder, inStart, inIndex - 1, inMap);
-        root.right = buildTree(preorder, preStart + leftLen + 1, preEnd, inorder, inIndex + 1, inEnd, inMap);
+        TreeNode root = new TreeNode(preorder[preL]);
+        int mid = map.get(preorder[preL]);
+        int leftLen = mid - inL;
+        root.left = buildTree(preorder, preL + 1, preL + leftLen, inorder, inL, mid - 1, map);
+        root.right = buildTree(preorder, preL + leftLen + 1, preR, inorder, mid + 1, inR, map);
         return root;
     }
 }
