@@ -11,54 +11,38 @@ public class Codec {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
-        if (root == null)
-            return "";
-        StringBuilder ans = new StringBuilder();
         List<String> list = new ArrayList<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            if (node != null) {
-                list.add(String.valueOf(node.val));
-                queue.offer(node.left);
-                queue.offer(node.right);
-            } else {
-                list.add("null");
-            }
-        }
-        ans.append(list.get(0));
-        for (int i = 1; i < list.size(); i++) {
-            ans.append(",").append(list.get(i));
-        }
-        return ans.toString();
+        dfs(root, list);
+        return String.join(",", list);
     }
 
+    void dfs(TreeNode root, List<String> list) {
+        if (root == null) {
+            list.add("null");
+            return;
+        }
+        list.add(String.valueOf(root.val));
+        dfs(root.left, list);
+        dfs(root.right, list);
+    }
+
+    int index = 0;
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        if (data == null || data.length() == 0)
-            return null;
         String[] split = data.split(",");
-        TreeNode root = new TreeNode(Integer.parseInt(split[0]));
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        int index = 1;
-        while (index < split.length) {
-            TreeNode node = queue.poll();
-            // left
-            if (!"null".equals(split[index])) {
-                node.left = new TreeNode(Integer.parseInt(split[index]));
-                queue.offer(node.left);
-            }
-            index++;
-            // right
-            if (index > split.length)
-                break;
-            if (!"null".equals(split[index])) {
-                node.right = new TreeNode(Integer.parseInt(split[index]));
-                queue.offer(node.right);
-            }
-            index++;
+        index = 0;
+        return dfs(split);
+    }
+
+    TreeNode dfs(String[] split) {
+        if (index >= split.length)
+            return null;
+        TreeNode root = null;
+        String node = split[index++];
+        if (!"null".equals(node)) {
+            root = new TreeNode(Integer.parseInt(node));
+            root.left = dfs(split);
+            root.right = dfs(split);
         }
         return root;
     }
