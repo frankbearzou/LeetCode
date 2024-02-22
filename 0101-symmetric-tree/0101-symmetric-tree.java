@@ -18,13 +18,13 @@ class Solution {
         return isSymmetric(root.left, root.right);
     }
 
-    boolean isSymmetric(TreeNode left, TreeNode right) {
-        if ((left == null && right != null) || (left != null && right == null))
-            return false;
-        if (left == null && right == null)
+    boolean isSymmetric(TreeNode t1, TreeNode t2) {
+        if (t1 == null && t2 == null)
             return true;
-        if (left.val != right.val)
+        if (t1 == null || t2 == null)
             return false;
-        return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
+        if (t1.val != t2.val)
+            return false;
+        return isSymmetric(t1.left, t2.right) && isSymmetric(t1.right, t2.left);
     }
 }
