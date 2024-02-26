@@ -1,11 +1,9 @@
 class Solution {
-    // a = a ^ b
-    // b = (a & b) << 1
     public int getSum(int a, int b) {
         while (b != 0) {
-            int t = a ^ b;
-            b = (a & b) << 1;
-            a = t;
+            int c = (a & b) << 1; // carry
+            a = a ^ b; // no carry sum
+            b = c;
         }
         return a;
     }
