@@ -18,27 +18,22 @@ class Solution {
         return dfs(root).d;
     }
 
-    private Pair dfs(TreeNode root) {
-        if (root == null) {
-            return new Pair();
-        }
-        Pair left = dfs(root.left);
-        Pair right = dfs(root.right);
-        int h = Math.max(left.h, right.h) + 1;
-        int d = left.h + right.h + 2;
-        int maxD = Math.max(d, Math.max(left.d, right.d));
-        return new Pair(h, maxD);
+    Pair dfs(TreeNode root) {
+        if (root == null)
+            return new Pair(-1, -1);
+        Pair l = dfs(root.left);
+        Pair r = dfs(root.right);
+        int h = Math.max(l.h, r.h) + 1;
+        int d = Math.max(l.h + r.h + 2, Math.max(l.d, r.d));
+        return new Pair(h, d);
     }
 }
 
 class Pair {
-    int h = -1; // height;
-    int d; // diameter;
-    public Pair() {
-
-    }
-    public Pair(int h, int d) {
-        this.h = h;
-        this.d = d;
+    int h;
+    int d;
+    Pair(int height, int diameter) {
+        h = height;
+        d = diameter;
     }
 }
