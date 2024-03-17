@@ -7,12 +7,11 @@ class Solution {
                 for (int j = i; j < intervals.length; j++) {
                     list.add(intervals[j]);
                 }
-                int size = list.size();
-                int[][] ans = new int[size][2];
-                for (int j = 0; j < ans.length; j++) {
-                    ans[j] = list.get(j);
+                int[][] res = new int[list.size()][2];
+                for (int j = 0; j < res.length; j++) {
+                    res[j] = list.get(j);
                 }
-                return ans;
+                return res;
             } else if (intervals[i][1] < newInterval[0]) {
                 list.add(intervals[i]);
             } else {
@@ -21,11 +20,10 @@ class Solution {
             }
         }
         list.add(newInterval);
-        int size = list.size();
-        int[][] ans = new int[size][2];
-        for (int j = 0; j < ans.length; j++) {
-            ans[j] = list.get(j);
+        int[][] res = new int[list.size()][2];
+        for (int i = 0; i < res.length; i++) {
+            res[i] = list.get(i);
         }
-        return ans;
+        return res;
     }
 }
