@@ -10,23 +10,25 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        ListNode cur = head;
-        Deque<ListNode> deque = new ArrayDeque<>();
+        ListNode fast = head, slow = head;
+        while (fast != null && fast.next != null) {
+            fast = fast.next.next;
+            slow = slow.next;
+        }
+        ListNode cur = slow.next;
+        slow.next = null;
+        Stack<ListNode> stack = new Stack<>();
         while (cur != null) {
-            deque.offer(cur);
+            stack.push(cur);
             cur = cur.next;
         }
-        cur = new ListNode();
-        int i = 0;
-        while (!deque.isEmpty()) {
-            if (i % 2 == 0) {
-                cur.next = deque.poll();
-            } else {
-                cur.next = deque.pollLast();
-            }
-            cur = cur.next;
-            i++;
+        cur = head;
+        while (!stack.isEmpty()) {
+            ListNode top = stack.pop();
+            ListNode next = cur.next;
+            cur.next = top;
+            top.next = next;
+            cur = next;
         }
-        cur.next = null;
     }
 }
