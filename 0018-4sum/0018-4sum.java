@@ -1,31 +1,41 @@
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
-        List<List<Integer>> ans = new ArrayList<>();
+        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
-            if (i > 0 && nums[i] == nums[i - 1])
+        int n = nums.length;
+        for (int a = 0; a < n - 3; a++) {
+            if (a > 0 && nums[a - 1] == nums[a])
                 continue;
-            for (int j = i + 1; j < nums.length; j++) {
-                if (j > i + 1 && nums[j] == nums[j - 1])
+            for (int b = a + 1; b < n - 2; b++) {
+                if (b - a > 1 && nums[b - 1] == nums[b])
                     continue;
-                int l = j + 1, r = nums.length - 1;
-                while (l < r) {
-                    long sum = (long)nums[i] + nums[j] + nums[l] + nums[r];
+                if (nums[a] + nums[b] + nums[b + 1] + nums[b + 2] > target)
+                    break;
+                if (nums[a] + nums[b] + nums[n - 2] + nums[n - 1] < target)
+                    continue;
+                int c = b + 1, d = n - 1;
+                while (c < d) {
+                    int sum = nums[a] + nums[b] + nums[c] + nums[d];
                     if (sum < target) {
-                        l++;
+                        c++;
+                        while (c < d && nums[c - 1] == nums[c])
+                            c++;
                     } else if (sum > target) {
-                        r--;
+                        d--;
+                        while (c < d && nums[d] == nums[d + 1])
+                            d--;
                     } else {
-                        ans.add(List.of(nums[i], nums[j], nums[l], nums[r]));
-                        l++; r--;
-                        while (l < r && nums[l] == nums[l - 1])
-                            l++;
-                        while (l < r && nums[r] == nums[r + 1])
-                            r--;
+                        res.add(List.of(nums[a], nums[b], nums[c], nums[d]));
+                        c++;
+                        while (c < d && nums[c - 1] == nums[c])
+                            c++;
+                        d--;
+                        while (c < d && nums[d] == nums[d + 1])
+                            d--;
                     }
                 }
             }
         }
-        return ans;
+        return res;
     }
 }
