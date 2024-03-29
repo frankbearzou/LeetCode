@@ -1,12 +1,17 @@
 class Solution {
     public int maximumCount(int[] nums) {
-        int neg = 0, pos = 0;
-        for (int num : nums) {
-            if (num < 0)
-                neg++;
-            else if (num > 0)
-                pos++;
+        return Math.max(binarySearch(nums, 0), nums.length - binarySearch(nums, 1));
+    }
+
+    int binarySearch(int[] nums, int target) {
+        int l = 0, r = nums.length;
+        while (l < r) {
+            int m = l + (r - l) / 2;
+            if (nums[m] < target)
+                l = m + 1;
+            else
+                r = m;
         }
-        return Math.max(neg, pos);
+        return l;
     }
 }
