@@ -6,13 +6,15 @@ class Solution {
         int count = 1;
         for (String word : split) {
             if (!vowel.contains(word.charAt(0))) {
-                word = word.substring(1) + word.charAt(0);
+                sb.append(word.substring(1)).append(word.charAt(0));
+            } else {
+                sb.append(word);
             }
-            word = word + "ma";
+            sb.append("ma");
             for (int j = 0; j < count; j++)
-                word += "a";
+                sb.append("a");
             count++;
-            sb.append(word).append(" ");
+            sb.append(" ");
         }
         return sb.toString().trim();
     }
