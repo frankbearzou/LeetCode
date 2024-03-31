@@ -1,10 +1,15 @@
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
-        for (int i = 0; i < matrix.length - 1; i++) {
-            for (int j = 0; j < matrix[0].length - 1; j++) {
-                if (matrix[i][j] != matrix[i + 1][j + 1])
+        List<Integer> buffer = new ArrayList<>();
+        for (int j = 0; j < matrix[0].length; j++)
+            buffer.add(matrix[0][j]);
+        for (int i = 1; i < matrix.length; i++) {
+            for (int j = 1; j < matrix[0].length; j++) {
+                if (buffer.get(j - 1) != matrix[i][j])
                     return false;
             }
+            buffer.remove(buffer.size() - 1);
+            buffer.add(0, matrix[i][0]);
         }
         return true;
     }
