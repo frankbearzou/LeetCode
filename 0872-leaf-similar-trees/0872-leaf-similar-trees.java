@@ -15,20 +15,19 @@
  */
 class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        List<Integer> l1 = new ArrayList<>();
-        List<Integer> l2 = new ArrayList<>();
-        dfs(root1, l1);
-        dfs(root2, l2);
-        return l1.equals(l2);
+        List<Integer> list1 = new ArrayList<>();
+        List<Integer> list2 = new ArrayList<>();
+        dfs(root1, list1);
+        dfs(root2, list2);
+        return list1.equals(list2);
     }
 
-    void dfs(TreeNode root, List<Integer> list) {
+    void dfs(TreeNode root, List<Integer> path) {
         if (root == null)
             return;
-        dfs(root.left, list);
-        if (root.left == null && root.right == null) {
-            list.add(root.val);
-        }
-        dfs(root.right, list);
+        if (root.left == null && root.right == null)
+            path.add(root.val);
+        dfs(root.left, path);
+        dfs(root.right, path);
     }
 }
