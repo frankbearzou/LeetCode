@@ -1,42 +1,32 @@
 class Solution {
-    int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    int row;
-    int col;
-
     public boolean exist(char[][] board, String word) {
-        row = board.length;
-        col = board[0].length;
-        boolean[][] visited = new boolean[row][col];
+        int row = board.length, col = board[0].length;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                if (board[i][j] == word.charAt(0)) {
-                    if (dfs(board, word, 0, i, j, visited))
-                        return true;
-                }
+                boolean[][] visited = new boolean[row][col];
+                if (dfs(board, i, j, word, 0, visited))
+                    return true;
             }
         }
         return false;
     }
 
-    boolean dfs(char[][] board, String word, int index, int r, int c, boolean[][] visited) {
-        if (index >= word.length())
-            return false;
-        if (visited[r][c])
-            return false;
-        if (index == word.length() - 1 && board[r][c] == word.charAt(index))
+    boolean dfs(char[][] board, int i, int j, String word, int index, boolean[][] visited) {
+        if (index == word.length())
             return true;
-        if (board[r][c] != word.charAt(index))
+        int row = board.length, col = board[0].length;
+        if (i < 0 || i >= row || j < 0 || j >= col)
             return false;
-            visited[r][c] = true;
-        for (int[] dir : dirs) {
-            int newr = r + dir[0];
-            int newc = c + dir[1];
-            if (newr < 0 || newr >= row || newc < 0 || newc >= col)
-                continue;
-            if (dfs(board, word, index + 1, newr, newc, visited))
-                return true;
-        }
-        visited[r][c] = false;
+        if (visited[i][j])
+            return false;
+        if (board[i][j] != word.charAt(index))
+            return false;
+        visited[i][j] = true;
+        if (dfs(board, i + 1, j, word, index + 1, visited) ||
+            dfs(board, i - 1, j, word, index + 1, visited) ||
+            dfs(board, i, j + 1, word, index + 1, visited) ||
+            dfs(board, i, j - 1, word, index + 1, visited))
+            return true;
         return false;
     }
 }
