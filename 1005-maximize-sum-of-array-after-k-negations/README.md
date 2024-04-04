@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/maximize-sum-of-array-after-k-negations">1005. Maximize Sum Of Array After K Negations</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code> and an integer <code>k</code>, modify the array in the following way:</p>
+<h2><a href="https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/">1005. Maximize Sum Of Array After K Negations</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code> and an integer <code>k</code>, modify the array in the following way:</p>
 
 <ul>
 	<li>choose an index <code>i</code> and replace <code>nums[i]</code> with <code>-nums[i]</code>.</li>
