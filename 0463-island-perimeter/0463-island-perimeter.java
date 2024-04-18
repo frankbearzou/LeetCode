@@ -1,21 +1,17 @@
 class Solution {
     public int islandPerimeter(int[][] grid) {
-        int ans = 0;
-        int row = grid.length, col = grid[0].length;
-        for (int r = 0; r < grid.length; r++) {
-            for (int c = 0; c < grid[0].length; c++) {
-                if (grid[r][c] == 0)
-                    continue;
-                if (c == 0 || grid[r][c - 1] == 0)
-                    ans++;
-                if (r == 0 || grid[r - 1][c] == 0)
-                    ans++;
-                if (c == col - 1 || grid[r][c + 1] == 0)
-                    ans++;
-                if (r == row - 1 || grid[r + 1][c] == 0)
-                    ans++;
+        int count = 0;
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
+                if (grid[i][j] == 1) {
+                    count += 4;
+                    if (i > 0 && grid[i - 1][j] == 1)
+                        count -= 2;
+                    if (j > 0 && grid[i][j - 1] == 1)
+                        count -= 2;
+                }
             }
         }
-        return ans;
+        return count;
     }
 }
