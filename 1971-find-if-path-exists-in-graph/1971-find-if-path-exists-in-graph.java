@@ -1,29 +1,25 @@
 class Solution {
-    int[] arr;
     public boolean validPath(int n, int[][] edges, int source, int destination) {
-        arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = i;
-        }
+        int[] parent = new int[n];
+        for (int i = 0; i < n; i++)
+            parent[i] = i;
         for (int[] edge : edges) {
-            join(edge[0], edge[1]);
+            union(parent, edge);
         }
-        return isSame(source, destination);
+        return isSame(parent, source, destination);
     }
 
-    int find(int u) {
-        return u == arr[u] ? u : (arr[u] = find(arr[u]));
+    int find(int[] parent, int i) {
+        return parent[i] == i ? i : find(parent, parent[i]);
     }
 
-    void join(int u, int v) {
-        u = find(u);
-        v = find(v);
-        if (u == v)
-            return;
-        arr[v] = u;
+    void union(int[] parent, int[] edge) {
+        int u = find(parent, edge[0]);
+        int v = find(parent, edge[1]);
+        parent[u] = v;
     }
 
-    boolean isSame(int u, int v) {
-        return find(u) == find(v);
+    boolean isSame(int[] parent, int u, int v) {
+        return find(parent, u) == find(parent, v);
     }
 }
