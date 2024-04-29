@@ -15,26 +15,16 @@
  */
 class Solution {
     public boolean isBalanced(TreeNode root) {
-        Pair p = dfs(root);
-        return p.b;
+        return dfs(root) != -1;
     }
 
-    Pair dfs(TreeNode root) {
+    int dfs(TreeNode root) {
         if (root == null)
-            return new Pair(0, true);
-        Pair l = dfs(root.left);
-        Pair r = dfs(root.right);
-        int h = Math.max(l.h, r.h) + 1;
-        boolean b = l.b && r.b && (Math.abs(l.h - r.h) <= 1);
-        return new Pair(h, b);
-    }
-}
-
-class Pair {
-    int h;
-    boolean b;
-    Pair(int h, boolean b) {
-        this.h = h;
-        this.b = b;
+            return 0;
+        int l = dfs(root.left);
+        int r = dfs(root.right);
+        if (l == -1 || r == -1 || Math.abs(l - r) > 1)
+            return -1;
+        return Math.max(l, r) + 1;
     }
 }
