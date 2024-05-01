@@ -1,13 +1,14 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int n = prices.length;
-        int[][] dp = new int[n][2];
-        dp[0][0] = -prices[0]; // funds with stock
-        dp[0][1] = 0; // funds without stock: not buy yet or sold
-        for (int i = 1; i < n; i++) {
-            dp[i][0] = Math.max(dp[i - 1][0], -prices[i]);
-            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] + prices[i]);
+        int max = 0;
+        int l = 0, r = 1;
+        while (r < prices.length) {
+            if (prices[l] < prices[r])
+                max = Math.max(max, prices[r] - prices[l]);
+            else
+                l = r;
+            r++;
         }
-        return dp[n - 1][1];
+        return max;
     }
 }
