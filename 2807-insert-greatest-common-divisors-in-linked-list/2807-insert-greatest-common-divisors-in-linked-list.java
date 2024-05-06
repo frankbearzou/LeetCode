@@ -13,7 +13,7 @@ class Solution {
         ListNode cur = head;
         while (cur != null && cur.next != null) {
             ListNode next = cur.next;
-            ListNode ins = new ListNode(getDivisor(cur.val, next.val));
+            ListNode ins = new ListNode(gcd(cur.val, next.val));
             cur.next = ins;
             ins.next = next;
             cur = next;
@@ -21,11 +21,9 @@ class Solution {
         return head;
     }
 
-    int getDivisor(int a, int b) {
-        for (int i = Math.min(a, b); i >= 1; i--) {
-            if ((a % i == 0) && (b % i == 0))
-                return i;
-        }
-        return 1;
+    int gcd(int a, int b) {
+        if (b == 0)
+            return a;
+        return gcd(b, a % b);
     }
 }
