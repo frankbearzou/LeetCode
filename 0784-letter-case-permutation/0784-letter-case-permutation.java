@@ -1,22 +1,23 @@
 class Solution {
+    List<String> res = new ArrayList<>();
+
     public List<String> letterCasePermutation(String s) {
-        List<String> res = new ArrayList<>();
-        Queue<String> queue = new LinkedList<>();
-        queue.offer(s);
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (c >= '0' && c <= '9')
-                continue;
-            int size = queue.size();
-            while (size-- > 0) {
-                String poll = queue.poll();
-                char[] arr = poll.toCharArray();
-                arr[i] = Character.toLowerCase(arr[i]);
-                queue.offer(String.valueOf(arr));
-                arr[i] = Character.toUpperCase(arr[i]);
-                queue.offer(String.valueOf(arr));
-            }
+        dfs(s.toCharArray(), 0);
+        return res;
+    }
+
+    void dfs(char[] arr, int pos) {
+        if (pos == arr.length) {
+            res.add(new String(arr));
+            return;
         }
-        return new ArrayList(queue);
+        if (arr[pos] >= '0' && arr[pos] <= '9') {
+            dfs(arr, pos + 1);
+            return;
+        }
+        arr[pos] = Character.toLowerCase(arr[pos]);
+        dfs(arr, pos + 1);
+        arr[pos] = Character.toUpperCase(arr[pos]);
+        dfs(arr, pos + 1);
     }
 }
