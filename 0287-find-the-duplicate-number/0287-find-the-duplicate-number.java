@@ -4,7 +4,7 @@ class Solution {
             int index = Math.abs(num);
             if (nums[index] < 0)
                 return index;
-            nums[index] = -nums[index];
+            nums[index] *= -1;
         }
         return 0;
     }
