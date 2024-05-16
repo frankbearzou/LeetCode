@@ -1,19 +1,17 @@
 class RecentCounter {
     private List<Integer> list;
+    private int start;
 
     public RecentCounter() {
         list = new ArrayList<>();
+        start = 0;
     }
     
     public int ping(int t) {
+        while (start < list.size() && t - list.get(start) > 3000)
+            start++;
         list.add(t);
-        int size = 1;
-        int left = t - 3000;
-        for (int i = list.size() - 2; i >= 0; i--) {
-            if (list.get(i) >= left)
-                size++;
-        }
-        return size;
+        return list.size() - start;
     }
 }
 
