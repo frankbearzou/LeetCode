@@ -7,7 +7,7 @@ class Solution {
     }
 
     void backtracking(int[] nums, int start, List<Integer> path, List<List<Integer>> res) {
-        res.add(new ArrayList(path));
+        res.add(new ArrayList<>(path));
         for (int i = start; i < nums.length; i++) {
             path.add(nums[i]);
             backtracking(nums, i + 1, path, res);
