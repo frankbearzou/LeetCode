@@ -1,14 +1,13 @@
 class Solution {
     public int[] singleNumber(int[] nums) {
-        int[] ans = new int[2];
+        int[] res = new int[2];
         int xor = 0;
-        for (int num : nums) {
+        for (int num : nums)
             xor ^= num;
-        }
-        int lowbit = xor & -xor;
+        xor = xor & -xor;
         for (int num : nums) {
-            ans[(num & lowbit) == 0 ? 0 : 1] ^= num;
+            res[(num & xor) == 0 ? 0 : 1] ^= num;
         }
-        return ans;
+        return res;
     }
 }
