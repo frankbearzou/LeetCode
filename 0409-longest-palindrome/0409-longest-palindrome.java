@@ -1,19 +1,22 @@
 class Solution {
     public int longestPalindrome(String s) {
-        int ans = 0;
+        int count = 0;
+        boolean single = false;
         int[] map = new int[128];
-        int one = 0;
         for (char c : s.toCharArray()) {
-            map[(int)c]++;
+            map[c]++;
         }
-        for (int i = 0; i < map.length; i++) {
-            if (map[i] % 2 == 0) {
-                ans += map[i];
-            } else {
-                ans += map[i] - 1;
-                one = 1;
+        for (int i : map) {
+            if (i > 0) {
+                if (i % 2 == 0)
+                    count += i;
+                else {
+                    count += i - 1;
+                    single = true;
+                }
+                    
             }
         }
-        return ans + one;
+        return count + (single ? 1 : 0);
     }
 }
