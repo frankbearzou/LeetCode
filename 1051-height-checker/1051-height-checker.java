@@ -8,8 +8,9 @@ class Solution {
         }
         Arrays.sort(expected);
         for (int i = 0; i < n; i++) {
-            if (heights[i] != expected[i])
+            if (heights[i] != expected[i]) {
                 count++;
+            }
         }
         return count;
     }
