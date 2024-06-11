@@ -1,23 +1,29 @@
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] res = new int[arr1.length];
-        Map<Integer, Integer> map = new TreeMap<>();
-        for (int num : arr1)
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        int index = 0;
-        for (int num : arr2) {
-            int count = map.get(num);
-            while (count-- > 0) {
-                res[index++] = num;
-            }
-            map.remove(num);
+        Set<Integer> set = new HashSet<>();
+        for (int i : arr2) {
+            set.add(i);
         }
-        for (var entry : map.entrySet()) {
-            int key = entry.getKey();
-            int count = entry.getValue();
-            while (count-- > 0) {
-                res[index++] = key;
+        Map<Integer, Integer> map = new HashMap<>();
+        List<Integer> list = new ArrayList<>();
+        for (int i : arr1) {
+            map.put(i, map.getOrDefault(i, 0) + 1);
+            if (!set.contains(i)) {
+                list.add(i);
             }
+        }
+        Collections.sort(list);
+        int index = 0;
+        for (int i = 0; i < arr2.length; i++) {
+            int count = map.get(arr2[i]);
+            while (count-- > 0) {
+                res[index++] = arr2[i];
+            }
+        }
+        int i = 0;
+        while (index < arr1.length) {
+            res[index++] = list.get(i++);
         }
         return res;
     }
