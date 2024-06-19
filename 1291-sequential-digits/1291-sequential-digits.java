@@ -1,22 +1,17 @@
 class Solution {
     public List<Integer> sequentialDigits(int low, int high) {
-        List<Integer> ans = new ArrayList<>();
-        String num = "123456789";
-        int min = String.valueOf(low).length();
-        int max = String.valueOf(high).length();
-        while (min <= max) {
-            for (int i = 0; i + min <= 9; i++) {
-                int val = Integer.parseInt(num.substring(i, i + min));
-                if (val < low) {
-                    continue;
-                } else if (val > high) {
+        List<Integer> res = new ArrayList<>();
+        String str = "123456789";
+        int lowDigit = String.valueOf(low).length();
+        int highDigit = String.valueOf(high).length();
+        for (int d = lowDigit; d <= highDigit; d++) {
+            for (int i = String.valueOf(low).charAt(0) - '1'; i + d <= str.length(); i++) {
+                int value = Integer.parseInt(str.substring(i, i + d));
+                if (value > high)
                     break;
-                } else {
-                    ans.add(val);
-                }
+                res.add(value);
             }
-            min++;
         }
-        return ans;
+        return res;
     }
 }
