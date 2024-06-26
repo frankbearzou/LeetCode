@@ -15,30 +15,26 @@
  */
 class Solution {
     public TreeNode balanceBST(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
+        List<TreeNode> list = new ArrayList<>();
         dfs(root, list);
-        int[] arr = new int[list.size()];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = list.get(i);
-        }
-        return build(arr, 0, arr.length - 1);
+        return build(list, 0, list.size() - 1);
     }
 
-    void dfs(TreeNode root, List<Integer> list) {
+    void dfs(TreeNode root, List<TreeNode> list) {
         if (root == null)
             return;
         dfs(root.left, list);
-        list.add(root.val);
+        list.add(root);
         dfs(root.right, list);
     }
 
-    TreeNode build(int[] arr, int l, int r) {
-        if (l > r)
+    TreeNode build(List<TreeNode> list, int start, int end) {
+        if (start > end)
             return null;
-        int mid = (l + r) / 2;
-        TreeNode root = new TreeNode(arr[mid]);
-        root.left = build(arr, l, mid - 1);
-        root.right = build(arr, mid + 1, r);
+        int mid = (start + end) / 2;
+        TreeNode root = list.get(mid);
+        root.left = build(list, start, mid - 1);
+        root.right = build(list, mid + 1, end);
         return root;
     }
 }
