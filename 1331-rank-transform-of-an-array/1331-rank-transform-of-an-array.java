@@ -1,23 +1,20 @@
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
-        Queue<Integer> pq = new PriorityQueue<>();
-        for (int i = 0; i < arr.length; i++) {
-            if (!map.containsKey(arr[i])) {
-                map.put(arr[i], new ArrayList());
-                pq.offer(arr[i]);
-            }
-            map.get(arr[i]).add(i);
-        }
+        Set<Integer> set = new HashSet<>();
+        for (int i : arr)
+            set.add(i);
+        List<Integer> list = new ArrayList<>(set);
+        Collections.sort(list);
+        Map<Integer, Integer> map = new HashMap<>();
         int count = 1;
-        int[] res = new int[arr.length];
-        while (!pq.isEmpty()) {
-            int top = pq.poll();
-            for (int index : map.get(top)) {
-                res[index] = count;
-            }
+        for (int i : list) {
+            map.put(i, count);
             count++;
         }
-        return res;
+        int[] ans = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            ans[i] = map.get(arr[i]);
+        }
+        return ans;
     }
 }
