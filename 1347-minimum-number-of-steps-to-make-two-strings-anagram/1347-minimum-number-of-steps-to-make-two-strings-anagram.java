@@ -7,12 +7,11 @@ class Solution {
         for (char c : t.toCharArray()) {
             map[c - 'a']--;
         }
-        int ans = 0;
-        for (int num : map) {
-            if (num > 0) {
-                ans += num;
-            }
+        int count = 0;
+        for (int i : map) {
+            if (i > 0)
+                count += i;
         }
-        return ans;
+        return count;
     }
 }
