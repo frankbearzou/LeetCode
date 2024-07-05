@@ -1,29 +1,21 @@
 class Solution {
     public int countLargestGroup(int n) {
-        Map<Integer, List<Integer>> map = new HashMap<>();
+        int[] t = new int[n + 1];
+        int[] freq = new int[37]; // 9999: 36
         for (int i = 1; i <= n; i++) {
-            int sum = getSum(i);
-            map.putIfAbsent(sum, new ArrayList());
-            map.get(sum).add(i);
+            t[i] = t[i / 10] + i % 10;
+            freq[t[i]]++;
         }
         int max = 0;
-        for (var val : map.values()) {
-            max = Math.max(max, val.size());
-        }
         int count = 0;
-        for (var val : map.values()) {
-            if (val.size() == max)
+        for (int i : freq) {
+            if (max < i) {
+                max = i;
+                count = 0;
+            }
+            if (i == max)
                 count++;
         }
         return count;
-    }
-
-    int getSum(int i) {
-        int sum = 0;
-        while (i > 0) {
-            sum += i % 10;
-            i /= 10;
-        }
-        return sum;
     }
 }
