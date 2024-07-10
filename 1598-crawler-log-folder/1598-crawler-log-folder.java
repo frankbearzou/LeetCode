@@ -1,15 +1,15 @@
 class Solution {
     public int minOperations(String[] logs) {
-        int count = 0;
+        int level = 0;
         for (String log : logs) {
-            if (log.equals("../")) {
-                if (count > 0)
-                    count--;
-            } else if (log.equals("./")){
+            if ("../".equals(log)) {
+                level = Math.max(0, level - 1);
+            } else if ("./".equals(log)) {
+
             } else {
-                count++;
+                level++;
             }
         }
-        return count;
+        return level;
     }
 }
