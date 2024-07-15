@@ -1,15 +1,25 @@
 class Solution {
     public String makeGood(String s) {
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> deque = new ArrayDeque<>();
         for (char c : s.toCharArray()) {
-            if (!stack.isEmpty() && (Math.abs(stack.peek() - c) == 32))
-                stack.pop();
-            else
-                stack.push(c);
+            if (deque.isEmpty()) {
+                deque.offer(c);
+            } else {
+                if (isBad(deque.peekLast(), c)) {
+                    deque.pollLast();
+                } else {
+                    deque.offer(c);
+                }
+            }
         }
-        StringBuilder sb = new StringBuilder();
-        while (!stack.isEmpty())
-            sb.insert(0, stack.pop());
-        return sb.toString();
+        StringBuilder res = new StringBuilder();
+        while (!deque.isEmpty()) {
+            res.append(deque.poll());
+        }
+        return res.toString();
+    }
+
+    boolean isBad(char a, char b) {
+        return a + 32 == b || a - 32 == b;
     }
 }
