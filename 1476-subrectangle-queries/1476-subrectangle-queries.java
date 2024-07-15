@@ -6,12 +6,7 @@ class SubrectangleQueries {
     public SubrectangleQueries(int[][] rectangle) {
         r = rectangle.length;
         c = rectangle[0].length;
-        arr = new int[r][c];
-        for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                arr[i][j] = rectangle[i][j];
-            }
-        }
+        arr = rectangle;
     }
     
     public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
