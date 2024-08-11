@@ -1,5 +1,6 @@
 class Solution {
     public boolean makeEqual(String[] words) {
+        int n = words.length;
         int[] map = new int[26];
         for (String word : words) {
             for (char c : word.toCharArray()) {
@@ -7,7 +8,7 @@ class Solution {
             }
         }
         for (int i = 0; i < map.length; i++) {
-            if (map[i] % words.length != 0)
+            if (map[i] % n != 0)
                 return false;
         }
         return true;
