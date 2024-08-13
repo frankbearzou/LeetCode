@@ -1,30 +1,26 @@
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
     List<Integer> path = new ArrayList<>();
-    boolean[] used;
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
-        used = new boolean[candidates.length];
-        backtracking(candidates, target, 0);
+        backtracking(candidates, 0, target);
         return res;
     }
 
-    void backtracking(int[] candidates, int target, int start) {
+    void backtracking(int[] candidates, int start, int target) {
         if (target == 0) {
-            res.add(new ArrayList<>(path));
+            res.add(new ArrayList(path));
             return;
         }
         for (int i = start; i < candidates.length; i++) {
-            if (i > 0 && candidates[i - 1] == candidates[i] && !used[i - 1])
+            if (i > start && candidates[i - 1] == candidates[i])
                 continue;
             if (candidates[i] > target)
                 continue;
-            used[i] = true;
             path.add(candidates[i]);
-            backtracking(candidates, target - candidates[i], i + 1);
-            path.remove(path.size() - 1);
-            used[i] = false;
+            backtracking(candidates, i + 1, target - candidates[i]);
+            path.removeLast();
         }
     }
 }
