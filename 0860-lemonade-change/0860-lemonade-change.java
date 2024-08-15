@@ -5,15 +5,14 @@ class Solution {
             if (bill == 5) {
                 five++;
             } else if (bill == 10) {
-                if (five > 0) {
-                    five--;
-                    ten++;
-                } else
+                if (five == 0)
                     return false;
-            } else if (bill == 20) {
+                five--;
+                ten++;
+            } else {
                 if (ten > 0 && five > 0) {
-                    ten--;
                     five--;
+                    ten--;
                 } else if (five >= 3) {
                     five -= 3;
                 } else
