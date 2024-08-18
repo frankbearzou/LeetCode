@@ -4,12 +4,12 @@ class Solution {
         arr[0] = 1;
         int a = 0, b = 0, c = 0;
         for (int i = 1; i < n; i++) {
-            arr[i] = Math.min(arr[a] * 2, Math.min(arr[b] * 3, arr[c] * 5));
-            if (arr[i] == arr[a] * 2)
+            arr[i] = Math.min(2 * arr[a], Math.min(3 * arr[b], 5 * arr[c]));
+            if (arr[i] == 2 * arr[a])
                 a++;
-            if (arr[i] == arr[b] * 3)
+            if (arr[i] == 3 * arr[b])
                 b++;
-            if (arr[i] == arr[c] * 5)
+            if (arr[i] == 5 * arr[c])
                 c++;
         }
         return arr[n - 1];
