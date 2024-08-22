@@ -17,16 +17,17 @@ class Solution {
     int res = Integer.MIN_VALUE;
 
     public int maxAncestorDiff(TreeNode root) {
-        dfs(root.left, root.val, root.val);
-        dfs(root.right, root.val, root.val);
+        dfs(root, root.val, root.val);
         return res;
     }
 
-    void dfs(TreeNode root, Integer min, Integer max) {
+    void dfs(TreeNode root, int min, int max) {
         if (root == null)
             return;
+        min = Math.min(min, root.val);
+        max = Math.max(max, root.val);
         res = Math.max(res, Math.max(root.val - min, max - root.val));
-        dfs(root.left, Math.min(root.val, min), Math.max(root.val, max));
-        dfs(root.right, Math.min(root.val, min), Math.max(root.val, max));
+        dfs(root.left, min, max);
+        dfs(root.right, min, max);
     }
 }
