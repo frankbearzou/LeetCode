@@ -14,15 +14,19 @@
  * }
  */
 class Solution {
+    int res = Integer.MIN_VALUE;
+
     public int maxAncestorDiff(TreeNode root) {
-        return dfs(root, root.val, root.val);
+        dfs(root.left, root.val, root.val);
+        dfs(root.right, root.val, root.val);
+        return res;
     }
 
-    int dfs(TreeNode root, int min, int max) {
+    void dfs(TreeNode root, Integer min, Integer max) {
         if (root == null)
-            return max - min;
-        max = Math.max(max, root.val);
-        min = Math.min(min, root.val);
-        return Math.max(dfs(root.left, min, max), dfs(root.right, min, max));
+            return;
+        res = Math.max(res, Math.max(root.val - min, max - root.val));
+        dfs(root.left, Math.min(root.val, min), Math.max(root.val, max));
+        dfs(root.right, Math.min(root.val, min), Math.max(root.val, max));
     }
 }
