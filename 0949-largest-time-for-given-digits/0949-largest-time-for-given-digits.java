@@ -1,67 +1,66 @@
 class Solution {
+    List<Integer> res = new ArrayList<>();
+    List<Integer> path = new ArrayList<>();
+
     public String largestTimeFromDigits(int[] arr) {
+        backtracking(arr);
+        if (res.isEmpty())
+            return "";
+        List<Integer> validList = new ArrayList<>();
+        for (int i : res) {
+            if (isValid(i)) {
+                validList.add(i);
+            }
+        }
+        if (validList.isEmpty())
+            return "";
+        Collections.sort(validList);
+        int i = validList.getLast();
+
         String res = "";
-        int[] map = new int[10];
-        for (int i : arr)
-            map[i]++;
-        if (map[2] > 0) {
-            if (map[3] > 0) {
-                map[2]--;
-                map[3]--;
-                res = "23:";
-            } else if (map[2] > 1) {
-                map[2] -= 2;
-                res = "22:";
-            } else if (map[1] > 0) {
-                map[2]--;
-                map[1]--;
-                res = "21:";
-            } else if (map[0] > 0) {
-                map[2]--;
-                map[0]--;
-                res = "20:";
-            } else {
-                return "";
-            }
-        } else if (map[1] > 0) {
-            res = "1";
-            map[1]--;
-            for (int i = 9; i >= 0; i--) {
-                if (map[i] > 0) {
-                    map[i]--;
-                    res += i + ":";
-                    break;
-                }
-            }
-        } else if (map[0] > 0) {
-            res = "0";
-            map[0]--;
-            for (int i = 9; i >= 0; i--) {
-                if (map[i] > 0) {
-                    map[i]--;
-                    res += i + ":";
-                    break;
-                }
-            }
-        } else {
-            return "";
-        }
-        boolean h = false;
-        for (int i = 5; i >= 0; i--) {
-            if (map[i] > 0) {
-                h = true;
-                res += i;
-                map[i]--;
-            }
-        }
-        if (!h)
-            return "";
-        for (int i = 9; i >= 0; i--) {
-            if (map[i] > 0) {
-                res += i;
-                map[i]--;
-            }
-        }
+
+        int h = i / 100;
+        if (h >= 10)
+            res = h + ":";
+        else if (h > 0 && h < 10)
+            res = "0" + h + ":";
+        else if (h == 0)
+            res = "00:";
+
+        int m = i % 100;
+        if (m >= 10)
+            res += m;
+        else if (m > 0 && m < 10)
+            res += "0" + m;
+        else if (m == 0)
+            res += "00";
+
         return res;
+    }
+
+    void backtracking(int[] arr) {
+        if (path.size() == 4) {
+            int a = 0; 
+            for (int i : path) {
+                a = a * 10 + arr[i];
+            }
+            res.add(a);
+            return;
+        }
+        for (int i = 0; i < 4; i++) {
+            if (path.contains(i))
+                continue;
+            path.add(i);
+            backtracking(arr);
+            path.removeLast();
+        }
+    }
+
+    boolean isValid(int time) {
+        if (time / 100 > 23)
+            return false;
+        if (time % 100 > 59)
+            return false;
+        return true;
     }
 }
