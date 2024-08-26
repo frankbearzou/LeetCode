@@ -21,28 +21,16 @@ class Solution {
         return res;
     }
 
-    Pair dfs(TreeNode root) {
+    int[] dfs(TreeNode root) {
         if (root == null)
-            return new Pair(Integer.MAX_VALUE, Integer.MIN_VALUE, 0);
-        Pair l = dfs(root.left);
-        Pair r = dfs(root.right);
-        if (root.val > l.max && root.val < r.min) {
-            int sum = root.val + l.sum + r.sum;
-            res = Math.max(res, sum);
-            return new Pair(Math.min(root.val, l.min), Math.max(root.val, r.max), sum);
-        } else {
-            return new Pair(Integer.MIN_VALUE, Integer.MAX_VALUE, 0);
-        }
-    }
-}
-
-class Pair {
-    int min;
-    int max;
-    int sum;
-    Pair(int min, int max, int sum) {
-        this.min = min;
-        this.max = max;
-        this.sum = sum;
+            return new int[]{Integer.MAX_VALUE, Integer.MIN_VALUE, 0};
+        int[] left = dfs(root.left);
+        int[] right = dfs(root.right);
+        int x = root.val;
+        if (x <= left[1] || x >= right[0])
+            return new int[]{Integer.MIN_VALUE, Integer.MAX_VALUE, 0};
+        int sum = x + left[2] + right[2];
+        res = Math.max(res, sum);
+        return new int[]{Math.min(x, left[0]), Math.max(x, right[1]), sum};
     }
 }
