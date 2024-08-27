@@ -15,19 +15,18 @@
  */
 class Solution {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < inorder.length; i++)
-            map.put(inorder[i], i);
-        return buildTree(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1, map);
-    }
-
-    TreeNode buildTree(int[] inorder, int inStart, int inEnd, int[] postorder, int postStart, int postEnd, Map<Integer, Integer> map) {
-        if (inStart > inEnd || postStart > postEnd)
+        int n = inorder.length;
+        if (n == 0)
             return null;
-        TreeNode root = new TreeNode(postorder[postEnd]);
-        int index = map.get(postorder[postEnd]);
-        root.left = buildTree(inorder, inStart, index - 1, postorder, postStart, postStart + (index - inStart) - 1, map);
-        root.right = buildTree(inorder, index + 1, inEnd, postorder, postStart + (index - inStart), postEnd - 1, map);
-        return root;
+        int len = 0;
+        for (int i = 0; i < n; i++) {
+            if (inorder[i] == postorder[n - 1]) {
+                len = i;
+                break;
+            }
+        }
+        TreeNode l = buildTree(Arrays.copyOfRange(inorder, 0, len), Arrays.copyOfRange(postorder, 0, len));
+        TreeNode r = buildTree(Arrays.copyOfRange(inorder, len + 1, n), Arrays.copyOfRange(postorder, len, n - 1));
+        return new TreeNode(postorder[n - 1], l, r);
     }
 }
