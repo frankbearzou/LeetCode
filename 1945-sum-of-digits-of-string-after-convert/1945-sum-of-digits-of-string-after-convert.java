@@ -1,25 +1,21 @@
 class Solution {
     public int getLucky(String s, int k) {
         StringBuilder sb = new StringBuilder();
-        int l = 0;
         for (char c : s.toCharArray()) {
             sb.append((int)(c - 'a' + 1));
         }
-        String str = sb.toString();
-        for (char c : str.toCharArray()) {
-            l += c - '0';
-        }
-        k--;
+        int sum = 0;
         while (k-- > 0) {
-            int res = 0;
-            while (l > 0) {
-                res += l % 10;
-                l /= 10;
+            sum = 0;
+            for (int i = 0; i < sb.length(); i++) {
+                sum += sb.charAt(i) - '0';
             }
-            if (res < 10)
-                return res;
-            l = res;
+            sb = new StringBuilder();
+            while (sum > 0) {
+                sb.append((int)(sum % 10));
+                sum /= 10;
+            }
         }
-        return l;
+        return Integer.parseInt(sb.reverse().toString());
     }
 }
