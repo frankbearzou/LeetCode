@@ -18,22 +18,20 @@ class Solution {
         List<List<Integer>> ans = new ArrayList<>();
         if (root == null)
             return ans;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            List<Integer> list = new ArrayList<>();
-            while (size-- > 0) {
-                TreeNode node = queue.poll();
-                list.add(node.val);
-                if (node.left != null) {
-                    queue.offer(node.left);
-                }
-                if (node.right != null) {
-                    queue.offer(node.right);
-                }
+        List<TreeNode> cur = new ArrayList<>();
+        cur.add(root);
+        while (!cur.isEmpty()) {
+            List<Integer> row = new ArrayList<>();
+            List<TreeNode> next = new ArrayList<>();
+            for (TreeNode node : cur) {
+                row.add(node.val);
+                if (node.left != null)
+                    next.add(node.left);
+                if (node.right != null)
+                    next.add(node.right);
             }
-            ans.add(list);
+            ans.add(row);
+            cur = next;
         }
         return ans;
     }
