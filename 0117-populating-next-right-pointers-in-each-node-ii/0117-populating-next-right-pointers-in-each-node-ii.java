@@ -22,24 +22,23 @@ class Node {
 */
 
 class Solution {
+    List<Node> list = new ArrayList<>();
+
     public Node connect(Node root) {
-        if (root == null)
-            return null;
-        Queue<Node> queue = new ArrayDeque<>();
-        queue.add(root);
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            while (size-- > 0) {
-                Node node = queue.remove();
-                if (size > 0) {
-                    node.next = queue.peek();
-                }
-                if (node.left != null)
-                    queue.add(node.left);
-                if (node.right != null)
-                    queue.add(node.right);
-            }
-        }
+        dfs(root, 0);
         return root;
+    }
+
+    void dfs(Node root, int depth) {
+        if (root == null)
+            return;
+        if (depth == list.size()) {
+            list.add(root);
+        } else {
+            list.get(depth).next = root;
+            list.set(depth, root);
+        }
+        dfs(root.left, depth + 1);
+        dfs(root.right, depth + 1);
     }
 }
