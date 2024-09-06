@@ -30,8 +30,9 @@ class Solution {
                 if (node.right != null)
                     queue.add(node.right);
             }
-            ans.add(0, list);
+            ans.add(list);
         }
+        Collections.reverse(ans);
         return ans;
     }
 }
