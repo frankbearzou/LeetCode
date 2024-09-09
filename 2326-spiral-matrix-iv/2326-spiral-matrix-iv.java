@@ -23,12 +23,33 @@ class Solution {
         for (int i = 0; i < m; i++)
             Arrays.fill(matrix[i], -1);
 
-        circle(left, right, top, down);
+        while (left <= right && top <= down) {
+            circle(left, right, top, down);
+            left++;
+            right--;
+            top++;
+            down--;
+        }
+        
         return matrix;
     }
 
     void circle(int left, int right, int top, int down) {
-        while (left < right && top < down) {
+        if (top == down) {
+            for (int j = left; j <= right; j++) {
+                if (head != null) {
+                    matrix[top][j] = head.val;
+                    head = head.next;
+                }
+            }
+        } else if (left == right) {
+            for (int i = top; i <= down; i++) {
+                if (head != null) {
+                    matrix[i][left] = head.val;
+                    head = head.next;
+                }
+            }
+        } else {
             for (int j = left; j < right; j++) {
                 if (head != null) {
                     matrix[top][j] = head.val;
@@ -48,26 +69,6 @@ class Solution {
                 }
             }
             for (int i = down; i > top; i--) {
-                if (head != null) {
-                    matrix[i][left] = head.val;
-                    head = head.next;
-                }
-            }
-            left++;
-            right--;
-            top++;
-            down--;
-        }
-        if (left < right) {
-            for (int j = left; j <= right; j++) {
-                if (head != null) {
-                    matrix[top][j] = head.val;
-                    head = head.next;
-                }
-            }
-        }
-        if (top < down) {
-            for (int i = top; i <= down; i++) {
                 if (head != null) {
                     matrix[i][left] = head.val;
                     head = head.next;
