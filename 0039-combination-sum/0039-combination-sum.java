@@ -7,16 +7,17 @@ class Solution {
     }
 
     void backtracking(int[] candidates, int start, int target, List<Integer> path, List<List<Integer>> res) {
+        if (start >= candidates.length || target < 0)
+            return;
         if (target == 0) {
             res.add(new ArrayList<>(path));
             return;
         }
-        for (int i = start; i < candidates.length; i++) {
-            if (candidates[i] > target)
-                continue;
-            path.add(candidates[i]);
-            backtracking(candidates, i, target - candidates[i], path, res);
-            path.remove(path.size() - 1);
-        }
+        // not select
+        backtracking(candidates, start + 1, target, path, res);
+        // select
+        path.add(candidates[start]);
+        backtracking(candidates, start, target - candidates[start], path, res);
+        path.remove(path.size() - 1);
     }
 }
