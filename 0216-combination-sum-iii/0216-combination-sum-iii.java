@@ -1,26 +1,30 @@
 class Solution {
+    List<List<Integer>> res = new ArrayList<>();
+    List<Integer> path = new ArrayList<>();
+    int k;
+    int n;
+
     public List<List<Integer>> combinationSum3(int k, int n) {
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> list = new ArrayList<>();
-        backtracking(k, n, 1, list, ans);
-        return ans;
+        this.k = k;
+        this.n = n;
+        dfs(1);
+        return res;
     }
 
-    void backtracking(int k, int n, int start, List<Integer> list, List<List<Integer>> ans) {
-        if (list.size() == k) {
-            if (n == 0) {
-                ans.add(new ArrayList(list));
-                return;
-            } else {
-                return;
+    void dfs(int start) {
+        if (path.size() == k) {
+            int sum = 0;
+            for (int i : path)
+                sum += i;
+            if (sum == n) {
+                res.add(new ArrayList(path));
             }
+            return;
         }
         for (int i = start; i <= 9; i++) {
-            if (n - i < 0)
-                continue;
-            list.add(i);
-            backtracking(k, n - i, i + 1, list, ans);
-            list.remove(list.size() - 1);
+            path.add(i);
+            dfs(i + 1);
+            path.removeLast();
         }
     }
 }
