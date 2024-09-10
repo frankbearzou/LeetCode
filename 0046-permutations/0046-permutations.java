@@ -1,22 +1,30 @@
 class Solution {
+    List<List<Integer>> res = new ArrayList<>();
+    List<Integer> path = new ArrayList<>();
+    Set<Integer> set = new HashSet<>();
+    int[] nums;
+    int n;
+
     public List<List<Integer>> permute(int[] nums) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> path = new ArrayList<>();
-        backtracking(nums, path, res);
+        this.nums = nums;
+        n = nums.length;
+        dfs();
         return res;
     }
 
-    void backtracking(int[] nums, List<Integer> path, List<List<Integer>> res) {
-        if (path.size() == nums.length) {
-            res.add(new ArrayList<>(path));
+    void dfs() {
+        if (path.size() == n) {
+            res.add(new ArrayList(path));
             return;
         }
-        for (int i = 0; i < nums.length; i++) {
-            if (path.contains(nums[i]))
+        for (int num : nums) {
+            if (set.contains(num))
                 continue;
-            path.add(nums[i]);
-            backtracking(nums, path, res);
-            path.remove(path.size() - 1);
+            set.add(num);
+            path.add(num);
+            dfs();
+            set.remove(num);
+            path.removeLast();
         }
     }
 }
