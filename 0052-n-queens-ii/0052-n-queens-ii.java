@@ -1,42 +1,46 @@
 class Solution {
     int count = 0;
+    char[][] board;
+    int n;
+
     public int totalNQueens(int n) {
-        char[][] arr = new char[n][n];
-        for (char[] array : arr) {
-            Arrays.fill(array, '.');
+        board = new char[n][n];
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(board[i], '.');
         }
-        backtracking(arr, 0, n);
+        this.n = n;
+        dfs(0);
         return count;
     }
 
-    void backtracking(char[][] arr, int row, int n) {
+    void dfs(int row) {
         if (row == n) {
             count++;
             return;
         }
         for (int j = 0; j < n; j++) {
-            if (isValid(arr, row, j, n)) {
-                arr[row][j] = 'Q';
-                backtracking(arr, row + 1, n);
-                arr[row][j] = '.';
+            if (isValid(row, j)) {
+                board[row][j] = 'Q';
+                dfs(row + 1);
+                board[row][j] = '.';
             }
         }
     }
 
-    boolean isValid(char[][] arr, int row, int col, int n) {
-        // up, same column
-        for (int i = 0; i < row; i++) {
-            if (arr[i][col] == 'Q')
+    boolean isValid(int row, int col) {
+        // check column
+        for (int i = row - 1; i >= 0; i--) {
+            if (board[i][col] == 'Q')
                 return false;
         }
-        // up left
+        // top left diagnal
         for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {
-            if (arr[i][j] == 'Q')
+            if (board[i][j] == 'Q')
                 return false;
         }
-        // up right
+        // top right diagnal
         for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {
-            if (arr[i][j] == 'Q')
+            if (board[i][j] == 'Q')
                 return false;
         }
         return true;
