@@ -1,27 +1,39 @@
 class Solution {
+    char[][] grid;
+    int m;
+    int n;
+    boolean[][] visited;
+
     public int numIslands(char[][] grid) {
+        this.grid = grid;
+        m = grid.length;
+        n = grid[0].length;
+
         int count = 0;
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[0].length; j++) {
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 if (grid[i][j] == '1') {
+                    visited = new boolean[m][n];
+                    dfs(i, j);
                     count++;
-                    dfs(grid, i, j);
                 }
             }
         }
         return count;
     }
 
-    int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-
-    void dfs(char[][] grid, int r, int c) {
+    void dfs(int r, int c) {
+        if (r < 0 || r >= m || c < 0 || c >= n)
+            return;
+        if (grid[r][c] == '0')
+            return;
+        if (visited[r][c])
+            return;
+        visited[r][c] = true;
         grid[r][c] = '0';
-        for (int[] dir : dirs) {
-            int newr = r + dir[0];
-            int newc = c + dir[1];
-            if (newr < 0 || newr >= grid.length || newc < 0 || newc >= grid[0].length || grid[newr][newc] == '0')
-                continue;
-            dfs(grid, newr, newc);
-        }
+        dfs(r + 1, c);
+        dfs(r - 1, c);
+        dfs(r, c + 1);
+        dfs(r, c - 1);
     }
 }
