@@ -14,23 +14,26 @@
  * }
  */
 class Solution {
+    String res;
+
     public String smallestFromLeaf(TreeNode root) {
-        Queue<String> queue = new PriorityQueue<>((a, b) -> b.compareTo(a));
-        dfs(root, "", queue);
-        return queue.peek();
+        dfs(root, "");
+        return res;
     }
 
-    void dfs(TreeNode root, String path, Queue<String> queue) {
+    void dfs(TreeNode root, String path) {
         if (root == null)
             return;
-        path = (char)('a' + root.val) + path;
+        String cur = (char)('a' + root.val) + path;
         if (root.left == null && root.right == null) {
-            queue.offer(path);
-            if (queue.size() > 1)
-                queue.poll();
+            if (res == null) {
+                res = cur;
+            } else if (cur.compareTo(res) < 0) {
+                res = cur;
+            }
             return;
         }
-        dfs(root.left, path, queue);
-        dfs(root.right, path, queue);
+        dfs(root.left, (char)('a' + root.val) + path);
+        dfs(root.right, (char)('a' + root.val) + path);
     }
 }
