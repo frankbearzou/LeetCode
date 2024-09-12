@@ -5,14 +5,14 @@ class Solution {
         for (char c : allowed.toCharArray())
             set.add(c);
         for (String word : words) {
-            boolean b = true;
+            boolean notExist = false;
             for (char c : word.toCharArray()) {
                 if (!set.contains(c)) {
-                    b = false;
+                    notExist = true;
                     break;
                 }
             }
-            if (b)
+            if (!notExist)
                 count++;
         }
         return count;
