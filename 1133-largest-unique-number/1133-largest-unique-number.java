@@ -1,13 +1,12 @@
 class Solution {
     public int largestUniqueNumber(int[] nums) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int num : nums)
-            map.put(num, map.getOrDefault(num, 0) + 1);
-        int res = -1;
-        for (var entry : map.entrySet()) {
-            if (entry.getValue() == 1)
-                res = Math.max(res, entry.getKey());
+        int[] arr = new int[1001];
+        for (int i : nums)
+            arr[i]++;
+        for (int i = 1000; i >= 0; i--) {
+            if (arr[i] == 1)
+                return i;
         }
-        return res;
+        return -1;
     }
 }
