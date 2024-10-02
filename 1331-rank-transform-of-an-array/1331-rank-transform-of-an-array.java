@@ -1,18 +1,20 @@
 class Solution {
     public int[] arrayRankTransform(int[] arr) {
-        Set<Integer> set = new HashSet<>();
-        for (int i : arr)
-            set.add(i);
-        List<Integer> list = new ArrayList<>(set);
-        Collections.sort(list);
+        int n = arr.length;
+        if (n == 0)
+            return new int[0];
+        int[] array = Arrays.copyOf(arr, n);
+        Arrays.sort(array);
+        int rank = 1;
         Map<Integer, Integer> map = new HashMap<>();
-        int count = 1;
-        for (int i : list) {
-            map.put(i, count);
-            count++;
+        map.put(array[0], rank);
+        for (int i = 1; i < n; i++) {
+            if (array[i - 1] != array[i]) {
+                map.put(array[i], ++rank);
+            }
         }
-        int[] ans = new int[arr.length];
-        for (int i = 0; i < arr.length; i++) {
+        int[] ans = new int[n];
+        for (int i = 0; i < n; i++) {
             ans[i] = map.get(arr[i]);
         }
         return ans;
