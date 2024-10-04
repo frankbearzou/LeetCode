@@ -1,15 +1,17 @@
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
+        // congruence modulo
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, -1);
         int n = nums.length;
-        int[] prefix = new int[n + 1];
-        for (int i = 1; i < prefix.length; i++) {
-            prefix[i] = prefix[i - 1] + nums[i - 1];
-        }
-        Set<Integer> set = new HashSet<>();
-        for (int i = 2; i < prefix.length; i++) {
-            set.add(prefix[i - 2] % k);
-            if (set.contains(prefix[i] % k))
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += nums[i];
+            int mod = sum % k;
+            if (map.containsKey(mod) && i - map.get(mod) >= 2) {
                 return true;
+            }
+            map.put(mod, i);
         }
         return false;
     }
