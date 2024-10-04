@@ -1,28 +1,26 @@
 class Solution {
     int[] nums;
     int[] multipliers;
-    int n;
-    int m;
-    Integer[][][] cache;
-
+    int n, m;
+    Integer[][] cache;
+    
     public int maximumScore(int[] nums, int[] multipliers) {
         this.nums = nums;
         this.multipliers = multipliers;
         n = nums.length;
         m = multipliers.length;
-        cache = new Integer[m][m][m];
-        return dfs(0, 0, 0);
+        cache = new Integer[n][m];
+        return dfs(0, 0);
     }
-
-    int dfs(int l, int r, int k) {
-        if (k == m)
+    
+    int dfs(int l, int i) {
+        if (i == m)
             return 0;
-        if (cache[l][r][k] != null)
-            return cache[l][r][k];
-        System.out.println(l + " " + r + " " + k);
-        return cache[l][r][k] = Math.max(
-            nums[l] * multipliers[k] + dfs(l + 1, r, k + 1), // choose left
-            nums[n - 1 - r] * multipliers[k] + dfs(l, r + 1, k + 1)  // choose right
-        );
+        if (cache[l][i] != null)
+            return cache[l][i];
+        int r = n - 1 - (i - l);
+        cache[l][i] = Math.max(nums[l] * multipliers[i] + dfs(l + 1, i + 1),
+                              nums[r] * multipliers[i] + dfs(l, i + 1));
+        return cache[l][i];
     }
 }
