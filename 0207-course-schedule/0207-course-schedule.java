@@ -1,30 +1,32 @@
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<List<Integer>> edges = new ArrayList<>();
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        int[] inDegree = new int[numCourses];
         for (int i = 0; i < numCourses; i++) {
-            edges.add(new ArrayList());
+            map.put(i, new ArrayList());
         }
         for (int[] pre : prerequisites) {
-            edges.get(pre[1]).add(pre[0]);
+            int from = pre[1];
+            int to = pre[0];
+            map.get(from).add(to);
+            inDegree[to]++;
         }
-        boolean[] visited = new boolean[numCourses];
+        List<Integer> list = new ArrayList<>();
+        Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < numCourses; i++) {
-            if (!dfs(edges, i, visited))
-                return false;
+            if (inDegree[i] == 0)
+                queue.add(i);
         }
-        return true;
-    }
-
-    boolean dfs(List<List<Integer>> edges, int i, boolean[] visited) {
-        if (visited[i])
-            return false;
-        visited[i] = true;
-        for (int nei : edges.get(i)) {
-            if (!dfs(edges, nei, visited))
-                return false;
+        while (!queue.isEmpty()) {
+            int v = queue.remove();
+            list.add(v);
+            for (int u : map.get(v)) {
+                inDegree[u]--;
+                if (inDegree[u] == 0) {
+                    queue.add(u);
+                }
+            }
         }
-        visited[i] = false;
-        edges.get(i).clear();
-        return true;
+        return list.size() == numCourses;
     }
 }
