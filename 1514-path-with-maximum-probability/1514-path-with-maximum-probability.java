@@ -1,25 +1,36 @@
 class Solution {
     public double maxProbability(int n, int[][] edges, double[] succProb, int start_node, int end_node) {
-        double[] res = new double[n];
-        res[start_node] = 1;
-        for (int i = 0; i < n - 1; i++) {
-            boolean changed = false;
+        double[] cost = new double[n];
+        boolean[] visited = new boolean[n];
+        cost[start_node] = 1;
+        for (int i = 0; i < n; i++) {
+            int cur = -1;
+            double maxCost = 0;
+            for (int j = 0; j < n; j++) {
+                if (visited[j])
+                    continue;
+                if (cost[j] > maxCost) {
+                    cur = j;
+                    maxCost = cost[j];
+                }
+            }
+            if (cur == -1)
+                break;
+            visited[cur] = true;
             for (int j = 0; j < edges.length; j++) {
                 int u = edges[j][0];
                 int v = edges[j][1];
-                double p = succProb[j];
-                if (res[u] * p > res[v]) {
-                    res[v] = res[u] * p;
-                    changed = true;
+                double c = succProb[j];
+                if (u == cur && !visited[v]) {
+                    if (cost[u] * c > cost[v])
+                        cost[v] = cost[u] * c;
                 }
-                if (res[v] * p > res[u]) {
-                    res[u] = res[v] * p;
-                    changed = true;
+                if (v == cur && !visited[u]) {
+                    if (cost[v] * c > cost[u])
+                        cost[u] = cost[v] * c;
                 }
             }
-            if (!changed)
-                break;
         }
-        return res[end_node];
+        return cost[end_node];
     }
 }
