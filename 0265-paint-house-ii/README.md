@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/paint-house-ii">265. Paint House II</a></h2><h3>Hard</h3><hr><p>There are a row of <code>n</code> houses, each house can be painted with one of the <code>k</code> colors. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.</p>
+<h2><a href="https://leetcode.com/problems/paint-house-ii/?envType=weekly-question&envId=2024-10-29">265. Paint House II</a></h2><h3>Hard</h3><hr><p>There are a row of <code>n</code> houses, each house can be painted with one of the <code>k</code> colors. The cost of painting each house with a certain color is different. You have to paint all the houses such that no two adjacent houses have the same color.</p>
 
 <p>The cost of painting each house with a certain color is represented by an <code>n x k</code> cost matrix costs.</p>
 
