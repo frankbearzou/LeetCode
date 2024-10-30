@@ -1,31 +1,29 @@
 class Solution {
     public int minimumMountainRemovals(int[] nums) {
         int n = nums.length;
-        int ans = n;
-        int[] pre = new int[n];
-        int[] post = new int[n];
+        int[] pre = new int[n]; // longest increasing subsequence LIS
+        int[] post = new int[n]; // LDS
+        Arrays.fill(pre, 1);
+        Arrays.fill(post, 1);
+        // LIS
         for (int i = 0; i < n; i++) {
-            int max = 0;
             for (int j = 0; j < i; j++) {
-                if (nums[j] < nums[i]) {
-                    max = Math.max(max, pre[j]);
-                }
+                if (nums[j] < nums[i])
+                    pre[i] = Math.max(pre[i], pre[j] + 1);
             }
-            pre[i] = max + 1;
         }
+        // LDS
         for (int i = n - 1; i >= 0; i--) {
-            int max = 0;
             for (int j = n - 1; j > i; j--) {
-                if (nums[i] > nums[j]) {
-                    max = Math.max(max, post[j]);
-                }
+                if (nums[j] < nums[i])
+                    post[i] = Math.max(post[i], post[j] + 1);
             }
-            post[i] = max + 1;
         }
+        int longest = 0;
         for (int i = 1; i < n - 1; i++) {
-            int len = pre[i] + post[i] - 1;
-            ans = Math.min(ans, n - len);
+            if (pre[i] > 1 && post[i] > 1)
+                longest = Math.max(longest, pre[i] + post[i] - 1);
         }
-        return ans;
+        return n - longest;
     }
 }
