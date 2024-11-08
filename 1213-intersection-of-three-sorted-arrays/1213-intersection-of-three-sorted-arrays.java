@@ -1,16 +1,22 @@
 class Solution {
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
-        List<Integer> res = new ArrayList<>();
-        Set<Integer> set2 = new HashSet<>();
-        Set<Integer> set3 = new HashSet<>();
-        for (int i : arr2)
-            set2.add(i);
-        for (int i : arr3)
-            set3.add(i);
-        for (int i : arr1) {
-            if (set2.contains(i) && set3.contains(i))
-                res.add(i);
+        List<Integer> ans = new ArrayList<>();
+        int i = 0, j = 0, k = 0;
+        while (i < arr1.length && j < arr2.length && k < arr3.length) {
+            if (arr1[i] == arr2[j] && arr1[i] == arr3[k]) {
+                ans.add(arr1[i]);
+                i++;
+                j++;
+                k++;
+            } else {
+                if (arr1[i] < arr2[j])
+                    i++;
+                else if (arr2[j] < arr3[k])
+                    j++;
+                else
+                    k++;
+            }
         }
-        return res;
+        return ans;
     }
 }
