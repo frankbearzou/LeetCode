@@ -1,23 +1,24 @@
 class Solution {
     public int equalSubstring(String s, String t, int maxCost) {
-        int count = 0;
         int n = s.length();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-            arr[i] = Math.abs(s.charAt(i) - t.charAt(i));
+            int a = (int)s.charAt(i);
+            int b = (int)t.charAt(i);
+            arr[i] = Math.abs(a - b);
         }
-        int l = 0;
-        int cur = 0;
-        for (int r = 0; r < n; r++) {
-            while (cur > maxCost) {
-                cur -= arr[l];
+        int len = 0;
+        int sum = 0;
+        int l = 0, r = 0;
+        while (r < n) {
+            sum += arr[r];
+            while (l <= r && sum > maxCost) {
+                sum -= arr[l];
                 l++;
             }
-            cur += arr[r];
-            if (cur <= maxCost) {
-                count = r - l + 1;
-            }
+            len = Math.max(len, r - l + 1);
+            r++;
         }
-        return count;
+        return len;
     }
 }
