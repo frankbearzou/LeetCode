@@ -2,24 +2,25 @@ class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
         int n = queries.length;
         int[] ans = new int[n];
-        TreeMap<Integer, Integer> map = new TreeMap<>();
         Arrays.sort(items, (a, b) -> a[0] - b[0]);
-        int max = 0;
-        for (int[] item : items) {
-            int price = item[0];
-            int beauty = item[1];
-            int cur = map.getOrDefault(price, 0);
-            max = Math.max(max, Math.max(beauty, cur));
-            map.put(price, max);
-        }
         for (int i = 0; i < n; i++) {
-            Integer key = map.floorKey(queries[i]);
-            if (key == null) {
-                ans[i] = 0;
-            } else {
-                ans[i] = map.get(key);
-            }
+            ans[i] = binarySearch(items, queries[i]);
         }
         return ans;
+    }
+
+    int binarySearch(int[][] items, int target) {
+        int l = 0, r = items.length - 1;
+        int max = 0;
+        while (l <= r) {
+            int m = l + (r - l) / 2;
+            if (target < items[m][0]) {
+                r = m - 1;
+            } else {
+                max = Math.max(max, items[m][1]);
+                l = m + 1;
+            }
+        }
+        return max;
     }
 }
