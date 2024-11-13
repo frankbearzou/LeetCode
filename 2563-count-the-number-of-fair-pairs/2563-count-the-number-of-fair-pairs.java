@@ -1,23 +1,23 @@
 class Solution {
     public long countFairPairs(int[] nums, int lower, int upper) {
-        long res = 0;
+        long ans = 0;
+        int n = nums.length;
         Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
-            int l = lowerBound(nums, i, lower - nums[i]);
-            int r = lowerBound(nums, i, upper - nums[i] + 1);
-            res += r - l;
+        for (int i = 0; i < n; i++) {
+            int l = lowerBound(nums, i + 1, n - 1, lower - nums[i]);
+            int r = lowerBound(nums, i + 1, n - 1, upper - nums[i] + 1);
+            ans += r - l;
         }
-        return res;
+        return ans;
     }
 
-    int lowerBound(int[] nums, int r, int target) {
-        int l = 0;
-        while (l < r) {
+    int lowerBound(int[] nums, int l, int r, int target) {
+        while (l <= r) {
             int m = l + (r - l) / 2;
-            if (nums[m] < target)
-                l = m + 1;
+            if (nums[m] >= target)
+                r = m - 1;
             else
-                r = m;
+                l = m + 1;
         }
         return l;
     }
