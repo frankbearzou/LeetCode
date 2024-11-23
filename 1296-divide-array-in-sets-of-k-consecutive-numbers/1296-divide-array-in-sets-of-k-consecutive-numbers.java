@@ -1,34 +1,30 @@
 class Solution {
     public boolean isPossibleDivide(int[] nums, int k) {
-        int n = nums.length;
-        if (n % k != 0)
+        if (nums.length % k != 0)
             return false;
-        List<Integer> list = new ArrayList<>();
+        TreeMap<Integer, Integer> map = new TreeMap<>();
         for (int num : nums) {
-            list.add(num);
+            map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        Queue<Integer> queue = new PriorityQueue<>(list);
-        list = new ArrayList<>();
-        while (!queue.isEmpty()) {
-            int top = queue.remove();
-            int count = 1;
-            for (int i = 1; i < k; i++) {
-                while (!queue.isEmpty()) {
-                    int t = queue.remove();
-                    if (t < top + i) {
-                        list.add(t);
-                    } else if (t == top + i) {
-                        count++;
-                        break;
-                    } else {
-                        return false;
-                    }
+        for (int i = 0; i < nums.length / k; i++) {
+            int firstkey = map.ceilingKey(0);
+            int t = map.get(firstkey);
+            if (t > 1) {
+                map.put(firstkey, t - 1);
+            } else {
+                map.remove(firstkey);
+            }
+            for (int j = 1; j < k; j++) {
+                int key = firstkey + j;
+                Integer v = map.get(key);
+                if (v == null)
+                    return false;
+                if (v > 1) {
+                    map.put(key, v - 1);
+                } else {
+                    map.remove(key);
                 }
             }
-            if (count != k)
-                return false;
-            queue.addAll(list);
-            list = new ArrayList<>();
         }
         return true;
     }
