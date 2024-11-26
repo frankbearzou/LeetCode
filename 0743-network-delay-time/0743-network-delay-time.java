@@ -1,30 +1,28 @@
 class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
-        int[] dist = new int[n + 1];
-        boolean[] visited = new boolean[n + 1];
-        int max = Integer.MAX_VALUE;
-        Arrays.fill(dist, max);
-        dist[0] = dist[k] = 0;
-        Queue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
-        List<List<int[]>> graph = new ArrayList<>();
+        List<List<int[]>> adj = new ArrayList<>();
         for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList());
+            adj.add(new ArrayList<>());
         }
         for (int[] time : times) {
             int from = time[0];
             int to = time[1];
-            int w = time[2];
-            graph.get(from).add(new int[]{to, w});
+            int t = time[2];
+            adj.get(from).add(new int[]{to, t});
         }
-        // dijkstra
+        Queue<int[]> queue = new PriorityQueue<>((a, b) -> a[1] - b[1]);
         queue.add(new int[]{k, 0});
+        boolean[] visited = new boolean[n + 1];
+        int[] dist = new int[n + 1];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        dist[0] = dist[k] = 0;
         while (!queue.isEmpty()) {
             int[] top = queue.remove();
             int from = top[0];
             visited[from] = true;
-            for (int[] v : graph.get(from)) {
-                int to = v[0];
-                int w = v[1];
+            for (int[] nei : adj.get(from)) {
+                int to = nei[0];
+                int w = nei[1];
                 if (visited[to])
                     continue;
                 if (dist[from] + w < dist[to]) {
@@ -33,14 +31,14 @@ class Solution {
                 }
             }
         }
-        int ans = 0;
+        int max = 0;
         for (int i = 1; i <= n; i++) {
-            if (dist[i] == max)
-                return -1;
             if (i == k)
                 continue;
-            ans = Math.max(ans, dist[i]);
+            if (dist[i] == Integer.MAX_VALUE)
+                return -1;
+            max = Math.max(max, dist[i]);
         }
-        return ans;
+        return max;
     }
 }
