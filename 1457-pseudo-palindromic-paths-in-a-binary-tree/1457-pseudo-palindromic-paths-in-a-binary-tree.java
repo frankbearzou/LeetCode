@@ -16,37 +16,35 @@
 class Solution {
     int ans = 0;
     public int pseudoPalindromicPaths (TreeNode root) {
-        int[] map = new int[10];
-        dfs(root, map);
+        dfs(root, "");
         return ans;
     }
 
-    void dfs(TreeNode root, int[] map) {
+    void dfs(TreeNode root, String path) {
         if (root == null)
             return;
-        map[root.val]++;
         if (root.left == null && root.right == null) {
-            if (isPalindrome(map))
-                ans++;
-        }
-        dfs(root.left, map);
-        dfs(root.right, map);
-        map[root.val]--;
-    }
-
-    boolean isPalindrome(int[] map) {
-        boolean single = false;
-        for (int i = 1; i <= 9; i++) {
-            if (map[i] % 2 == 0) {
-                continue;
-            } else {
+            path = path + root.val;
+            int[] map = new int[10];
+            for (char c : path.toCharArray()) {
+                int i = c - '0';
+                map[i]++;
+            }
+            boolean single = false;
+            for (int i = 1; i < 10; i++) {
+                if (map[i] % 2 == 0) {
+                    continue;
+                }
                 if (!single) {
                     single = true;
-                } else {
-                    return false;
+                    continue;
                 }
+                return;
             }
+            ans++;
+            return;
         }
-        return true;
+        dfs(root.left, path + root.val);
+        dfs(root.right, path + root.val);
     }
 }
