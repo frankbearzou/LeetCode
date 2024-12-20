@@ -22,21 +22,21 @@ class Solution {
             if (depth % 2 == 1) {
                 int l = 0, r = list.size() - 1;
                 while (l < r) {
-                    int t = list.get(l).val;
+                    int tmp = list.get(l).val;
                     list.get(l).val = list.get(r).val;
-                    list.get(r).val = t;
+                    list.get(r).val = tmp;
                     l++;
                     r--;
                 }
             }
-            List<TreeNode> l = new ArrayList<>();
+            List<TreeNode> next = new ArrayList<>();
             for (int i = 0; i < list.size(); i++) {
                 if (list.get(i).left != null)
-                    l.add(list.get(i).left);
+                    next.add(list.get(i).left);
                 if (list.get(i).right != null)
-                    l.add(list.get(i).right);
+                    next.add(list.get(i).right);
             }
-            list = l;
+            list = next;
             depth++;
         }
         return root;
