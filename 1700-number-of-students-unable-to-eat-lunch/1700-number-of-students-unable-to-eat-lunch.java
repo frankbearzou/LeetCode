@@ -1,26 +1,24 @@
 class Solution {
     public int countStudents(int[] students, int[] sandwiches) {
-        int[] map = new int[2];
-        Deque<Integer> student = new ArrayDeque<>(), sandwich = new ArrayDeque<>();
-        for (int s : students) {
-            student.offer(s);
-            map[s]++;
+        int n = sandwiches.length;
+        int zero = 0, one = 0;
+        for (int stu : students) {
+            if (stu == 0)
+                zero++;
+            else
+                one++;
         }
-        for (int s : sandwiches)
-            sandwich.offer(s);
-        while (!sandwich.isEmpty()) {
-            int top = sandwich.peek();
-            if (map[top] == 0)
-                return student.size();
-            while (!student.isEmpty()) {
-                if (student.peek() != top)
-                    student.offer(student.poll());
-                else {
-                    student.poll();
-                    sandwich.poll();
-                    map[top]--;
-                    break;
-                }
+        for (int i = 0; i < n; i++) {
+            if (sandwiches[i] == 0) {
+                if (zero > 0)
+                    zero--;
+                else
+                    return n - i;
+            } else {
+                if (one > 0)
+                    one--;
+                else
+                    return n - i;
             }
         }
         return 0;
