@@ -1,17 +1,35 @@
 class Solution {
+    int low, high, zero, one;
+    int[] cache;
+    int mod = (int)1e9 + 7;
+
     public int countGoodStrings(int low, int high, int zero, int one) {
-        int[] dp = new int[high + 1];
-        dp[0] = 1;
-        int mod = (int)1e9 + 7;
-        int ans = 0;
-        for (int i = 1; i <= high; i++) {
-            if (i - zero >= 0)
-                dp[i] = (dp[i] + dp[i - zero]) % mod;
-            if (i - one >= 0)
-                dp[i] = (dp[i] + dp[i - one]) % mod;
-            if (ans >= low)
-                ans = (ans + dp[i]) % mod;
+        this.low = low;
+        this.high = high;
+        this.zero = zero;
+        this.one = one;
+        cache = new int[high + 1];
+        Arrays.fill(cache, -1);
+        long sum = 0;
+        for (int i = low; i <= high; i++) {
+            sum = (sum + dp(i)) % mod;
         }
-        return ans;
+        return (int)sum;
+    }
+
+    int dp(int index) {
+        if (index == 0)
+            return 1;
+        if (cache[index] != -1)
+            return cache[index];
+        long sum = 0;
+        if (index >= zero) {
+            sum = (sum + dp(index - zero)) % mod;
+        }
+        if (index >= one) {
+            sum = (sum + dp(index - one)) % mod;
+        }
+        cache[index] = (int)sum;
+        return cache[index];
     }
 }
