@@ -1,22 +1,23 @@
 class Solution {
     public int maxScore(String s) {
-        int ans = 0;
-        int l = 0, r = 0;
+        int score = 0, left = 0, right = 0;
         char[] arr = s.toCharArray();
+        int n = arr.length;
         if (arr[0] == '0')
-            l = 1;
-        for (int i = 1; i < arr.length; i++) {
+            left++;
+        for (int i = 1; i < n; i++) {
             if (arr[i] == '1')
-                r++;
+                right++;
         }
-        ans = l + r;
-        for (int i = 1; i < arr.length - 1; i++) {
-            if (arr[i] == '0')
-                l++;
-            else
-                r--;
-            ans = Math.max(ans, l + r);
+        score = left + right;
+        for (int i = 1; i < n - 1; i++) {
+            if (arr[i] == '0') {
+                left++;
+            } else {
+                right--;
+            }
+            score = Math.max(score, left + right);
         }
-        return ans;
+        return score;
     }
 }
