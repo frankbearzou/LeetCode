@@ -1,15 +1,15 @@
 class Solution {
     public int findTheWinner(int n, int k) {
-        List<Integer> list = new ArrayList<>();
+        Deque<Integer> queue = new ArrayDeque<>();
         for (int i = 1; i <= n; i++) {
-            list.add(i);
+            queue.add(i);
         }
-        int index = 0;
-        while (list.size() > 1) {
-            int del = (index + k - 1) % list.size();
-            list.remove(del);
-            index = del;
+        while (queue.size() > 1) {
+            for (int i = 0; i < k; i++) {
+                queue.add(queue.remove());
+            }
+            queue.removeLast();
         }
-        return list.get(0);
+        return queue.peek();
     }
 }
