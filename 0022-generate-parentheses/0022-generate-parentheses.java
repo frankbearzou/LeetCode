@@ -1,23 +1,23 @@
 class Solution {
-    List<String> res = new ArrayList<>();
+    List<String> ans = new ArrayList<>();
     int n;
 
     public List<String> generateParenthesis(int n) {
         this.n = n;
         dfs(0, 0, "");
-        return res;
+        return ans;
     }
 
-    void dfs(int open, int close, String path) {
+    void dfs(int left, int right, String path) {
         if (path.length() == 2 * n) {
-            res.add(path);
+            ans.add(path);
             return;
         }
-        if (open < n) {
-            dfs(open + 1, close, path + "(");
+        if (left < n) {
+            dfs(left + 1, right, path + "(");
         }
-        if (open > close) {
-            dfs(open, close + 1, path + ")");
+        if (left > right) {
+            dfs(left, right + 1, path + ")");
         }
     }
 }
