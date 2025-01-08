@@ -1,29 +1,24 @@
 class Solution {
-    List<List<Integer>> res = new ArrayList<>();
-    List<Integer> path = new ArrayList<>();
-    Set<Integer> set = new HashSet<>();
     int[] nums;
-    int n;
+    List<List<Integer>> ans = new ArrayList<>();
+    List<Integer> path = new ArrayList<>();
 
     public List<List<Integer>> permute(int[] nums) {
         this.nums = nums;
-        n = nums.length;
         dfs();
-        return res;
+        return ans;
     }
 
     void dfs() {
-        if (path.size() == n) {
-            res.add(new ArrayList(path));
+        if (path.size() == nums.length) {
+            ans.add(new ArrayList<>(path));
             return;
         }
-        for (int num : nums) {
-            if (set.contains(num))
+        for (int i = 0; i < nums.length; i++) {
+            if (path.contains(nums[i]))
                 continue;
-            set.add(num);
-            path.add(num);
+            path.add(nums[i]);
             dfs();
-            set.remove(num);
             path.removeLast();
         }
     }
