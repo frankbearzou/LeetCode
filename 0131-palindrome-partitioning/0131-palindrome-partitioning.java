@@ -7,25 +7,21 @@ class Solution {
     public List<List<String>> partition(String s) {
         this.s = s;
         n = s.length();
-        dfs(0, 0);
+        dfs(0);
         return res;
     }
 
-    void dfs(int start, int end) {
-        if (end == n) {
+    void dfs(int start) {
+        if (start == n) {
             res.add(new ArrayList(path));
             return;
         }
-        // extend, not new string
-        if (end < n - 1) {
-            dfs(start, end + 1);
-        }
-        
-        // make new string
-        if (isPalindrome(start, end)) {
-            path.add(s.substring(start, end + 1));
-            dfs(end + 1, end + 1);
-            path.removeLast();
+        for (int i = start; i < n; i++) {
+            if (isPalindrome(start, i)) {
+                path.add(s.substring(start, i + 1));
+                dfs(i + 1);
+                path.removeLast();
+            }
         }
     }
 
