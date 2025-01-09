@@ -1,30 +1,41 @@
 class Solution {
+    char[][] board;
+    String word;
+    int m;
+    int n;
     int[][] dirs = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    boolean[][] visited;
 
     public boolean exist(char[][] board, String word) {
-        boolean[][] visited = new boolean[board.length][board[0].length];
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
-                if (dfs(board, word, i, j, 0, visited))
+        this.board = board;
+        this.word = word;
+        m = board.length;
+        n = board[0].length;
+        visited = new boolean[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (dfs(i, j, 0))
                     return true;
             }
         }
         return false;
     }
 
-    boolean dfs(char[][] board, String word, int row, int col, int index, boolean[][] visited) {
+    boolean dfs(int row, int col, int index) {
         if (index == word.length())
             return true;
-        if (row < 0 || row >= board.length || col < 0 || col >= board[0].length)
+        if (row < 0 || row >= m || col < 0 || col >= n)
             return false;
         if (visited[row][col])
             return false;
         if (board[row][col] != word.charAt(index))
             return false;
-        boolean found = false;
         visited[row][col] = true;
+        boolean found = false;
         for (int[] dir : dirs) {
-            if (dfs(board, word, row + dir[0], col + dir[1], index + 1, visited))
+            int dr = row + dir[0];
+            int dc = col + dir[1];
+            if (dfs(dr, dc, index + 1))
                 found = true;
         }
         visited[row][col] = false;
