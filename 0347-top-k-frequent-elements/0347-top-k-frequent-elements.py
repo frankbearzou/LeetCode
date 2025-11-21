@@ -5,9 +5,7 @@ class Solution:
             count[num] = count.get(num, 0) + 1
         heap = []
         for key, cnt in count.items():
-            heapq.heappush(heap, (cnt, key))
-            if len(heap) > k:
-                heapq.heappop(heap)
+            heapq.heappush(heap, (-cnt, key))
         res = []
         for i in range(k):
             res.append(heapq.heappop(heap)[1])
