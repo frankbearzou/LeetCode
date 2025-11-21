@@ -3,13 +3,12 @@ class Solution:
         count = {}
         for num in nums:
             count[num] = count.get(num, 0) + 1
-        arr = []
-        for num, cnt in count.items():
-            arr.append((num, cnt))
-        arr.sort(key=lambda x: -x[1])
-
+        heap = []
+        for key, cnt in count.items():
+            heapq.heappush(heap, (cnt, key))
+            if len(heap) > k:
+                heapq.heappop(heap)
         res = []
         for i in range(k):
-            res.append(arr[i][0])
-        
+            res.append(heapq.heappop(heap)[1])
         return res
